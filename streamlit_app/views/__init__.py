@@ -1,0 +1,1 @@
+"""Implemented application pages."""

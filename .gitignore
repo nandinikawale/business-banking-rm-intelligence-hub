@@ -1,0 +1,38 @@
+# Environments and Python caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build, coverage, and local artifacts
+build/
+dist/
+*.whl
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.duckdb
+*.duckdb.wal
+
+# Local configuration and environment-specific agent links
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.agents/skills/
+.claude/skills/
+
+# Generated synthetic data and reports; retain .gitkeep files
+data/**/*.csv
+reports/**/*.json
+reports/**/*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db

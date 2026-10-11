@@ -1,0 +1,24 @@
+name: Project checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.24"
+      - name: Install locked application and development dependencies
+        run: uv sync --locked --group app
+      - name: Lint
+        run: uv run --locked --group app ruff check .
+      - name: Check formatting
+        run: uv run --locked --group app ruff format --check .
+      - name: Generate default synthetic data
+        run: uv run --locked --group app banking-data generate
+      - name: Validate default synthetic data
+        run: uv run --locked --group app banking-data validate
+      - name: Run all tests
+        run: uv run --locked --group app pytest
+      - name: Exercise read-only analytics
+        run: uv run --locked --group app python scripts/inspect_analytics.py
