@@ -1,0 +1,1001 @@
+customer_id,business_name,industry,business_size,business_age_years,region,rm_id,relationship_start_month,baseline_annual_business_revenue,is_synthetic
+SYN-C000001,Fictional Purpose Business 0001,Retail,Small,28,Region 1,SYN-RM001,2020-01-01,546896.640000,True
+SYN-C000002,Fictional Brother Business 0002,Wholesale,Medium,8,Region 2,SYN-RM002,2018-01-01,3589546.680000,True
+SYN-C000003,Fictional Ago Business 0003,Manufacturing,Medium,35,Region 3,SYN-RM003,2022-01-01,1658540.210000,True
+SYN-C000004,Fictional Site Business 0004,Hospitality,Medium,30,Region 4,SYN-RM004,2020-01-01,1445605.610000,True
+SYN-C000005,Fictional Face Business 0005,Manufacturing,Medium,14,Region 1,SYN-RM005,2022-01-01,3075267.170000,True
+SYN-C000006,Fictional Election Business 0006,Manufacturing,Medium,20,Region 2,SYN-RM006,2020-01-01,4286062.970000,True
+SYN-C000007,Fictional Dog Business 0007,Professional Services,Medium,9,Region 3,SYN-RM007,2023-01-01,2085070.540000,True
+SYN-C000008,Fictional Chair Business 0008,Retail,Medium,11,Region 4,SYN-RM008,2021-01-01,3383860.540000,True
+SYN-C000009,Fictional Since Business 0009,Retail,Small,27,Region 1,SYN-RM009,2018-01-01,769208.180000,True
+SYN-C000010,Fictional Blue Business 0010,Wholesale,Medium,25,Region 2,SYN-RM010,2022-01-01,1268311.430000,True
+SYN-C000011,Fictional Require Business 0011,Hospitality,Medium,8,Region 3,SYN-RM011,2020-01-01,2435575.730000,True
+SYN-C000012,Fictional Sit Business 0012,Retail,Medium,27,Region 4,SYN-RM012,2022-01-01,2174036.160000,True
+SYN-C000013,Fictional Wait Business 0013,Wholesale,Small,27,Region 1,SYN-RM013,2020-01-01,998396.460000,True
+SYN-C000014,Fictional Offer Business 0014,Construction,Small,4,Region 2,SYN-RM014,2020-01-01,678009.050000,True
+SYN-C000015,Fictional Begin Business 0015,Hospitality,Medium,8,Region 3,SYN-RM015,2022-01-01,1318163.340000,True
+SYN-C000016,Fictional Performance Business 0016,Professional Services,Small,21,Region 4,SYN-RM016,2022-01-01,671146.580000,True
+SYN-C000017,Fictional Knowledge Business 0017,Wholesale,Medium,16,Region 1,SYN-RM017,2022-01-01,2460798.760000,True
+SYN-C000018,Fictional Almost Business 0018,Hospitality,Medium,30,Region 2,SYN-RM018,2020-01-01,1831330.400000,True
+SYN-C000019,Fictional All Business 0019,Wholesale,Medium,11,Region 3,SYN-RM019,2021-01-01,3361363.790000,True
+SYN-C000020,Fictional Better Business 0020,Retail,Medium,29,Region 4,SYN-RM020,2018-01-01,2799546.180000,True
+SYN-C000021,Fictional Discover Business 0021,Hospitality,Medium,28,Region 1,SYN-RM001,2020-01-01,2675705.960000,True
+SYN-C000022,Fictional Early Business 0022,Hospitality,Medium,20,Region 2,SYN-RM002,2020-01-01,1084155.980000,True
+SYN-C000023,Fictional Mouth Business 0023,Manufacturing,Medium,21,Region 3,SYN-RM003,2019-01-01,1131002.380000,True
+SYN-C000024,Fictional Play Business 0024,Retail,Small,24,Region 4,SYN-RM004,2020-01-01,645293.440000,True
+SYN-C000025,Fictional Agreement Business 0025,Wholesale,Medium,21,Region 1,SYN-RM005,2021-01-01,1068599.230000,True
+SYN-C000026,Fictional Option Business 0026,Manufacturing,Medium,5,Region 2,SYN-RM006,2021-01-01,2563569.590000,True
+SYN-C000027,Fictional Decide Business 0027,Hospitality,Medium,12,Region 3,SYN-RM007,2020-01-01,1054641.210000,True
+SYN-C000028,Fictional Sense Business 0028,Professional Services,Medium,11,Region 4,SYN-RM008,2020-01-01,3318678.060000,True
+SYN-C000029,Fictional Rate Business 0029,Wholesale,Small,31,Region 1,SYN-RM009,2022-01-01,500507.140000,True
+SYN-C000030,Fictional Science Business 0030,Retail,Medium,33,Region 2,SYN-RM010,2019-01-01,2355592.170000,True
+SYN-C000031,Fictional Offer Business 0031,Professional Services,Small,24,Region 3,SYN-RM011,2021-01-01,978826.800000,True
+SYN-C000032,Fictional Kind Business 0032,Hospitality,Medium,15,Region 4,SYN-RM012,2020-01-01,2661261.650000,True
+SYN-C000033,Fictional Discussion Business 0033,Professional Services,Small,29,Region 1,SYN-RM013,2020-01-01,783221.140000,True
+SYN-C000034,Fictional List Business 0034,Retail,Medium,28,Region 2,SYN-RM014,2022-01-01,1022078.650000,True
+SYN-C000035,Fictional Perform Business 0035,Hospitality,Small,17,Region 3,SYN-RM015,2023-01-01,940406.750000,True
+SYN-C000036,Fictional Fall Business 0036,Manufacturing,Medium,18,Region 4,SYN-RM016,2022-01-01,2319145.430000,True
+SYN-C000037,Fictional Table Business 0037,Professional Services,Medium,17,Region 1,SYN-RM017,2019-01-01,1337668.580000,True
+SYN-C000038,Fictional True Business 0038,Construction,Medium,22,Region 2,SYN-RM018,2020-01-01,1361731.620000,True
+SYN-C000039,Fictional According Business 0039,Wholesale,Small,4,Region 3,SYN-RM019,2020-01-01,418083.050000,True
+SYN-C000040,Fictional Song Business 0040,Wholesale,Medium,18,Region 4,SYN-RM020,2022-01-01,2147436.830000,True
+SYN-C000041,Fictional Sure Business 0041,Professional Services,Large,11,Region 1,SYN-RM001,2019-01-01,5046809.820000,True
+SYN-C000042,Fictional Collection Business 0042,Hospitality,Medium,28,Region 2,SYN-RM002,2020-01-01,2959822.300000,True
+SYN-C000043,Fictional Save Business 0043,Hospitality,Small,11,Region 3,SYN-RM003,2020-01-01,595692.010000,True
+SYN-C000044,Fictional Knowledge Business 0044,Wholesale,Medium,25,Region 4,SYN-RM004,2019-01-01,3263441.040000,True
+SYN-C000045,Fictional Grow Business 0045,Hospitality,Medium,12,Region 1,SYN-RM005,2021-01-01,1841054.060000,True
+SYN-C000046,Fictional Fall Business 0046,Construction,Small,2,Region 2,SYN-RM006,2022-01-01,371849.710000,True
+SYN-C000047,Fictional Clearly Business 0047,Professional Services,Medium,26,Region 3,SYN-RM007,2019-01-01,1832226.410000,True
+SYN-C000048,Fictional Dinner Business 0048,Manufacturing,Large,5,Region 4,SYN-RM008,2021-01-01,6727337.100000,True
+SYN-C000049,Fictional Source Business 0049,Manufacturing,Medium,4,Region 1,SYN-RM009,2022-01-01,1741594.890000,True
+SYN-C000050,Fictional Great Business 0050,Retail,Large,8,Region 2,SYN-RM010,2019-01-01,5342627.850000,True
+SYN-C000051,Fictional Blue Business 0051,Manufacturing,Large,6,Region 3,SYN-RM011,2019-01-01,5898081.850000,True
+SYN-C000052,Fictional Best Business 0052,Manufacturing,Small,12,Region 4,SYN-RM012,2023-01-01,799895.240000,True
+SYN-C000053,Fictional Husband Business 0053,Wholesale,Small,21,Region 1,SYN-RM013,2021-01-01,397181.310000,True
+SYN-C000054,Fictional Bill Business 0054,Manufacturing,Medium,7,Region 2,SYN-RM014,2023-01-01,1189315.440000,True
+SYN-C000055,Fictional Her Business 0055,Professional Services,Medium,18,Region 3,SYN-RM015,2018-01-01,1978477.480000,True
+SYN-C000056,Fictional Throw Business 0056,Retail,Large,24,Region 4,SYN-RM016,2020-01-01,9790218.640000,True
+SYN-C000057,Fictional Guy Business 0057,Professional Services,Small,33,Region 1,SYN-RM017,2021-01-01,573744.120000,True
+SYN-C000058,Fictional Pm Business 0058,Professional Services,Medium,34,Region 2,SYN-RM018,2019-01-01,1894235.510000,True
+SYN-C000059,Fictional Everything Business 0059,Manufacturing,Small,19,Region 3,SYN-RM019,2019-01-01,821188.570000,True
+SYN-C000060,Fictional Surface Business 0060,Retail,Medium,2,Region 4,SYN-RM020,2023-01-01,4043742.650000,True
+SYN-C000061,Fictional Animal Business 0061,Manufacturing,Small,6,Region 1,SYN-RM001,2019-01-01,549151.110000,True
+SYN-C000062,Fictional Show Business 0062,Retail,Small,6,Region 2,SYN-RM002,2019-01-01,925424.180000,True
+SYN-C000063,Fictional Machine Business 0063,Construction,Large,24,Region 3,SYN-RM003,2023-01-01,7877596.620000,True
+SYN-C000064,Fictional Not Business 0064,Hospitality,Medium,22,Region 4,SYN-RM004,2023-01-01,3736285.650000,True
+SYN-C000065,Fictional Capital Business 0065,Wholesale,Small,9,Region 1,SYN-RM005,2018-01-01,587210.760000,True
+SYN-C000066,Fictional Win Business 0066,Manufacturing,Large,12,Region 2,SYN-RM006,2022-01-01,11095456.360000,True
+SYN-C000067,Fictional Human Business 0067,Professional Services,Small,29,Region 3,SYN-RM007,2019-01-01,622948.530000,True
+SYN-C000068,Fictional Bar Business 0068,Wholesale,Medium,23,Region 4,SYN-RM008,2021-01-01,2117408.340000,True
+SYN-C000069,Fictional Old Business 0069,Wholesale,Small,10,Region 1,SYN-RM009,2019-01-01,788550.470000,True
+SYN-C000070,Fictional Finally Business 0070,Retail,Small,12,Region 2,SYN-RM010,2020-01-01,953377.000000,True
+SYN-C000071,Fictional Themselves Business 0071,Wholesale,Medium,35,Region 3,SYN-RM011,2018-01-01,1730565.030000,True
+SYN-C000072,Fictional Production Business 0072,Hospitality,Medium,9,Region 4,SYN-RM012,2023-01-01,1709979.660000,True
+SYN-C000073,Fictional Present Business 0073,Retail,Large,19,Region 1,SYN-RM013,2018-01-01,5079389.600000,True
+SYN-C000074,Fictional Value Business 0074,Hospitality,Small,15,Region 2,SYN-RM014,2020-01-01,994125.890000,True
+SYN-C000075,Fictional Training Business 0075,Wholesale,Large,5,Region 3,SYN-RM015,2020-01-01,6318347.070000,True
+SYN-C000076,Fictional High Business 0076,Construction,Small,34,Region 4,SYN-RM016,2019-01-01,458976.560000,True
+SYN-C000077,Fictional Participant Business 0077,Retail,Large,6,Region 1,SYN-RM017,2023-01-01,7553204.250000,True
+SYN-C000078,Fictional Dark Business 0078,Retail,Medium,14,Region 2,SYN-RM018,2021-01-01,1020672.260000,True
+SYN-C000079,Fictional Sea Business 0079,Hospitality,Large,31,Region 3,SYN-RM019,2019-01-01,5582307.250000,True
+SYN-C000080,Fictional Available Business 0080,Construction,Medium,12,Region 4,SYN-RM020,2023-01-01,2706482.700000,True
+SYN-C000081,Fictional Answer Business 0081,Professional Services,Medium,19,Region 1,SYN-RM001,2023-01-01,1257617.040000,True
+SYN-C000082,Fictional Recently Business 0082,Retail,Large,11,Region 2,SYN-RM002,2018-01-01,5593455.260000,True
+SYN-C000083,Fictional Drive Business 0083,Retail,Small,25,Region 3,SYN-RM003,2019-01-01,209470.150000,True
+SYN-C000084,Fictional Spring Business 0084,Manufacturing,Small,28,Region 4,SYN-RM004,2021-01-01,659298.220000,True
+SYN-C000085,Fictional Figure Business 0085,Professional Services,Medium,8,Region 1,SYN-RM005,2018-01-01,1069372.660000,True
+SYN-C000086,Fictional Base Business 0086,Hospitality,Small,30,Region 2,SYN-RM006,2018-01-01,416618.790000,True
+SYN-C000087,Fictional Top Business 0087,Professional Services,Medium,6,Region 3,SYN-RM007,2018-01-01,2336322.050000,True
+SYN-C000088,Fictional Early Business 0088,Professional Services,Medium,6,Region 4,SYN-RM008,2020-01-01,1075945.710000,True
+SYN-C000089,Fictional Trial Business 0089,Manufacturing,Large,24,Region 1,SYN-RM009,2021-01-01,5233172.260000,True
+SYN-C000090,Fictional Blood Business 0090,Construction,Small,18,Region 2,SYN-RM010,2018-01-01,758315.280000,True
+SYN-C000091,Fictional Husband Business 0091,Manufacturing,Medium,20,Region 3,SYN-RM011,2023-01-01,1737129.660000,True
+SYN-C000092,Fictional Fall Business 0092,Retail,Medium,27,Region 4,SYN-RM012,2020-01-01,1600721.930000,True
+SYN-C000093,Fictional Long Business 0093,Retail,Large,34,Region 1,SYN-RM013,2019-01-01,8736344.240000,True
+SYN-C000094,Fictional Prove Business 0094,Wholesale,Medium,16,Region 2,SYN-RM014,2020-01-01,1117926.070000,True
+SYN-C000095,Fictional They Business 0095,Manufacturing,Medium,28,Region 3,SYN-RM015,2021-01-01,1982411.820000,True
+SYN-C000096,Fictional His Business 0096,Retail,Small,10,Region 4,SYN-RM016,2022-01-01,734812.290000,True
+SYN-C000097,Fictional Commercial Business 0097,Professional Services,Medium,9,Region 1,SYN-RM017,2022-01-01,1258545.660000,True
+SYN-C000098,Fictional Hospital Business 0098,Manufacturing,Small,6,Region 2,SYN-RM018,2020-01-01,888271.350000,True
+SYN-C000099,Fictional Hear Business 0099,Wholesale,Medium,16,Region 3,SYN-RM019,2023-01-01,1343045.790000,True
+SYN-C000100,Fictional Determine Business 0100,Wholesale,Small,20,Region 4,SYN-RM020,2019-01-01,364509.180000,True
+SYN-C000101,Fictional Religious Business 0101,Construction,Small,10,Region 1,SYN-RM001,2023-01-01,518167.430000,True
+SYN-C000102,Fictional Example Business 0102,Hospitality,Large,31,Region 2,SYN-RM002,2018-01-01,23203502.860000,True
+SYN-C000103,Fictional Science Business 0103,Professional Services,Medium,22,Region 3,SYN-RM003,2019-01-01,2031891.670000,True
+SYN-C000104,Fictional Write Business 0104,Hospitality,Small,33,Region 4,SYN-RM004,2018-01-01,575207.300000,True
+SYN-C000105,Fictional Result Business 0105,Wholesale,Medium,33,Region 1,SYN-RM005,2018-01-01,2220022.240000,True
+SYN-C000106,Fictional Raise Business 0106,Construction,Medium,17,Region 2,SYN-RM006,2018-01-01,1293507.640000,True
+SYN-C000107,Fictional Away Business 0107,Manufacturing,Medium,2,Region 3,SYN-RM007,2019-01-01,1140448.180000,True
+SYN-C000108,Fictional Politics Business 0108,Construction,Small,16,Region 4,SYN-RM008,2021-01-01,866692.170000,True
+SYN-C000109,Fictional Prove Business 0109,Manufacturing,Medium,25,Region 1,SYN-RM009,2022-01-01,1702584.350000,True
+SYN-C000110,Fictional Congress Business 0110,Construction,Medium,27,Region 2,SYN-RM010,2023-01-01,1544943.010000,True
+SYN-C000111,Fictional None Business 0111,Hospitality,Medium,30,Region 3,SYN-RM011,2020-01-01,1984087.260000,True
+SYN-C000112,Fictional Shoulder Business 0112,Construction,Large,9,Region 4,SYN-RM012,2019-01-01,21282158.920000,True
+SYN-C000113,Fictional Election Business 0113,Manufacturing,Medium,21,Region 1,SYN-RM013,2019-01-01,2119210.610000,True
+SYN-C000114,Fictional Common Business 0114,Retail,Small,5,Region 2,SYN-RM014,2023-01-01,510532.260000,True
+SYN-C000115,Fictional Maintain Business 0115,Retail,Medium,3,Region 3,SYN-RM015,2022-01-01,2317816.720000,True
+SYN-C000116,Fictional Hundred Business 0116,Retail,Medium,29,Region 4,SYN-RM016,2023-01-01,3545063.240000,True
+SYN-C000117,Fictional Expect Business 0117,Construction,Small,35,Region 1,SYN-RM017,2021-01-01,938512.480000,True
+SYN-C000118,Fictional Wish Business 0118,Hospitality,Medium,22,Region 2,SYN-RM018,2022-01-01,1543932.760000,True
+SYN-C000119,Fictional Push Business 0119,Hospitality,Medium,6,Region 3,SYN-RM019,2019-01-01,1156167.820000,True
+SYN-C000120,Fictional Rise Business 0120,Manufacturing,Large,30,Region 4,SYN-RM020,2020-01-01,5944145.680000,True
+SYN-C000121,Fictional Onto Business 0121,Hospitality,Medium,15,Region 1,SYN-RM001,2019-01-01,1737029.100000,True
+SYN-C000122,Fictional Discuss Business 0122,Construction,Medium,16,Region 2,SYN-RM002,2020-01-01,1031661.480000,True
+SYN-C000123,Fictional Reveal Business 0123,Retail,Large,16,Region 3,SYN-RM003,2020-01-01,7579688.820000,True
+SYN-C000124,Fictional Garden Business 0124,Professional Services,Medium,27,Region 4,SYN-RM004,2019-01-01,3337179.720000,True
+SYN-C000125,Fictional Threat Business 0125,Professional Services,Small,14,Region 1,SYN-RM005,2019-01-01,540227.930000,True
+SYN-C000126,Fictional Special Business 0126,Construction,Large,24,Region 2,SYN-RM006,2023-01-01,5050725.050000,True
+SYN-C000127,Fictional Stand Business 0127,Wholesale,Medium,18,Region 3,SYN-RM007,2020-01-01,4495292.490000,True
+SYN-C000128,Fictional Arrive Business 0128,Manufacturing,Large,18,Region 4,SYN-RM008,2021-01-01,7700053.230000,True
+SYN-C000129,Fictional Drop Business 0129,Construction,Medium,29,Region 1,SYN-RM009,2022-01-01,1108211.040000,True
+SYN-C000130,Fictional Term Business 0130,Manufacturing,Small,8,Region 2,SYN-RM010,2022-01-01,757248.970000,True
+SYN-C000131,Fictional Almost Business 0131,Retail,Medium,8,Region 3,SYN-RM011,2021-01-01,3088613.450000,True
+SYN-C000132,Fictional Support Business 0132,Wholesale,Medium,34,Region 4,SYN-RM012,2021-01-01,1570457.670000,True
+SYN-C000133,Fictional Four Business 0133,Manufacturing,Large,5,Region 1,SYN-RM013,2021-01-01,8282155.760000,True
+SYN-C000134,Fictional Institution Business 0134,Retail,Small,26,Region 2,SYN-RM014,2018-01-01,329905.580000,True
+SYN-C000135,Fictional Executive Business 0135,Wholesale,Small,34,Region 3,SYN-RM015,2020-01-01,897738.540000,True
+SYN-C000136,Fictional Attorney Business 0136,Manufacturing,Medium,35,Region 4,SYN-RM016,2022-01-01,2691628.940000,True
+SYN-C000137,Fictional Development Business 0137,Wholesale,Medium,34,Region 1,SYN-RM017,2022-01-01,1515328.780000,True
+SYN-C000138,Fictional White Business 0138,Manufacturing,Small,19,Region 2,SYN-RM018,2021-01-01,776395.040000,True
+SYN-C000139,Fictional Yes Business 0139,Construction,Medium,7,Region 3,SYN-RM019,2018-01-01,4401898.290000,True
+SYN-C000140,Fictional Our Business 0140,Manufacturing,Small,25,Region 4,SYN-RM020,2021-01-01,166587.330000,True
+SYN-C000141,Fictional Under Business 0141,Hospitality,Medium,27,Region 1,SYN-RM001,2021-01-01,2176428.460000,True
+SYN-C000142,Fictional Serious Business 0142,Professional Services,Small,6,Region 2,SYN-RM002,2023-01-01,206886.090000,True
+SYN-C000143,Fictional Forward Business 0143,Wholesale,Small,6,Region 3,SYN-RM003,2022-01-01,326924.760000,True
+SYN-C000144,Fictional Difference Business 0144,Retail,Medium,26,Region 4,SYN-RM004,2020-01-01,2084289.910000,True
+SYN-C000145,Fictional Reality Business 0145,Wholesale,Medium,28,Region 1,SYN-RM005,2022-01-01,3182175.070000,True
+SYN-C000146,Fictional Money Business 0146,Professional Services,Medium,29,Region 2,SYN-RM006,2022-01-01,1832577.710000,True
+SYN-C000147,Fictional Individual Business 0147,Manufacturing,Small,11,Region 3,SYN-RM007,2021-01-01,646819.140000,True
+SYN-C000148,Fictional Usually Business 0148,Construction,Medium,34,Region 4,SYN-RM008,2018-01-01,1270731.900000,True
+SYN-C000149,Fictional Who Business 0149,Retail,Small,33,Region 1,SYN-RM009,2022-01-01,537342.370000,True
+SYN-C000150,Fictional Question Business 0150,Professional Services,Large,7,Region 2,SYN-RM010,2021-01-01,6000676.500000,True
+SYN-C000151,Fictional Low Business 0151,Wholesale,Medium,33,Region 3,SYN-RM011,2021-01-01,1780119.190000,True
+SYN-C000152,Fictional Character Business 0152,Professional Services,Medium,24,Region 4,SYN-RM012,2023-01-01,1484895.200000,True
+SYN-C000153,Fictional Evidence Business 0153,Retail,Medium,26,Region 1,SYN-RM013,2020-01-01,3268131.800000,True
+SYN-C000154,Fictional Chair Business 0154,Retail,Large,31,Region 2,SYN-RM014,2021-01-01,13406771.130000,True
+SYN-C000155,Fictional Employee Business 0155,Retail,Large,6,Region 3,SYN-RM015,2018-01-01,6743176.370000,True
+SYN-C000156,Fictional Size Business 0156,Hospitality,Medium,5,Region 4,SYN-RM016,2020-01-01,1627387.330000,True
+SYN-C000157,Fictional Option Business 0157,Hospitality,Small,30,Region 1,SYN-RM017,2023-01-01,447277.800000,True
+SYN-C000158,Fictional Nothing Business 0158,Professional Services,Small,2,Region 2,SYN-RM018,2019-01-01,690775.750000,True
+SYN-C000159,Fictional Everyone Business 0159,Manufacturing,Medium,33,Region 3,SYN-RM019,2021-01-01,1909707.160000,True
+SYN-C000160,Fictional Skin Business 0160,Retail,Small,3,Region 4,SYN-RM020,2023-01-01,163636.330000,True
+SYN-C000161,Fictional Pattern Business 0161,Hospitality,Medium,11,Region 1,SYN-RM001,2018-01-01,2272557.670000,True
+SYN-C000162,Fictional Later Business 0162,Retail,Medium,23,Region 2,SYN-RM002,2018-01-01,1675009.440000,True
+SYN-C000163,Fictional Water Business 0163,Hospitality,Medium,32,Region 3,SYN-RM003,2019-01-01,2430387.990000,True
+SYN-C000164,Fictional Past Business 0164,Construction,Medium,31,Region 4,SYN-RM004,2022-01-01,1238447.520000,True
+SYN-C000165,Fictional Inside Business 0165,Hospitality,Medium,8,Region 1,SYN-RM005,2019-01-01,1010489.970000,True
+SYN-C000166,Fictional High Business 0166,Manufacturing,Medium,2,Region 2,SYN-RM006,2018-01-01,1141042.810000,True
+SYN-C000167,Fictional Discuss Business 0167,Retail,Small,3,Region 3,SYN-RM007,2023-01-01,221149.150000,True
+SYN-C000168,Fictional Certainly Business 0168,Hospitality,Small,11,Region 4,SYN-RM008,2023-01-01,359303.920000,True
+SYN-C000169,Fictional Mr Business 0169,Construction,Medium,3,Region 1,SYN-RM009,2023-01-01,2993525.070000,True
+SYN-C000170,Fictional Minute Business 0170,Wholesale,Medium,30,Region 2,SYN-RM010,2022-01-01,1772498.300000,True
+SYN-C000171,Fictional Benefit Business 0171,Hospitality,Medium,30,Region 3,SYN-RM011,2018-01-01,1375487.760000,True
+SYN-C000172,Fictional Someone Business 0172,Retail,Medium,20,Region 4,SYN-RM012,2022-01-01,1338178.280000,True
+SYN-C000173,Fictional Anyone Business 0173,Manufacturing,Small,23,Region 1,SYN-RM013,2020-01-01,662961.160000,True
+SYN-C000174,Fictional Traditional Business 0174,Retail,Small,3,Region 2,SYN-RM014,2019-01-01,359867.190000,True
+SYN-C000175,Fictional Break Business 0175,Retail,Medium,11,Region 3,SYN-RM015,2021-01-01,3151552.570000,True
+SYN-C000176,Fictional Claim Business 0176,Wholesale,Small,19,Region 4,SYN-RM016,2018-01-01,395113.190000,True
+SYN-C000177,Fictional Product Business 0177,Retail,Medium,22,Region 1,SYN-RM017,2019-01-01,2305855.310000,True
+SYN-C000178,Fictional Collection Business 0178,Wholesale,Small,15,Region 2,SYN-RM018,2019-01-01,257980.550000,True
+SYN-C000179,Fictional Structure Business 0179,Professional Services,Small,5,Region 3,SYN-RM019,2020-01-01,884515.020000,True
+SYN-C000180,Fictional Response Business 0180,Wholesale,Small,20,Region 4,SYN-RM020,2022-01-01,788928.430000,True
+SYN-C000181,Fictional Knowledge Business 0181,Construction,Medium,23,Region 1,SYN-RM001,2020-01-01,2007155.100000,True
+SYN-C000182,Fictional Pick Business 0182,Retail,Large,20,Region 2,SYN-RM002,2019-01-01,5150624.730000,True
+SYN-C000183,Fictional Attack Business 0183,Professional Services,Medium,21,Region 3,SYN-RM003,2019-01-01,4048517.390000,True
+SYN-C000184,Fictional Image Business 0184,Manufacturing,Medium,7,Region 4,SYN-RM004,2018-01-01,4234868.450000,True
+SYN-C000185,Fictional I Business 0185,Professional Services,Medium,19,Region 1,SYN-RM005,2023-01-01,2045876.990000,True
+SYN-C000186,Fictional Pick Business 0186,Professional Services,Large,35,Region 2,SYN-RM006,2018-01-01,10565784.940000,True
+SYN-C000187,Fictional Management Business 0187,Wholesale,Medium,11,Region 3,SYN-RM007,2021-01-01,4083349.440000,True
+SYN-C000188,Fictional Newspaper Business 0188,Professional Services,Medium,15,Region 4,SYN-RM008,2021-01-01,2015578.590000,True
+SYN-C000189,Fictional Enter Business 0189,Wholesale,Small,16,Region 1,SYN-RM009,2023-01-01,665503.810000,True
+SYN-C000190,Fictional On Business 0190,Construction,Small,22,Region 2,SYN-RM010,2019-01-01,204979.600000,True
+SYN-C000191,Fictional Traditional Business 0191,Wholesale,Medium,3,Region 3,SYN-RM011,2020-01-01,1111774.550000,True
+SYN-C000192,Fictional Yes Business 0192,Professional Services,Medium,5,Region 4,SYN-RM012,2021-01-01,4200414.220000,True
+SYN-C000193,Fictional Activity Business 0193,Professional Services,Small,21,Region 1,SYN-RM013,2021-01-01,997767.610000,True
+SYN-C000194,Fictional Response Business 0194,Manufacturing,Medium,22,Region 2,SYN-RM014,2019-01-01,1751633.550000,True
+SYN-C000195,Fictional Set Business 0195,Construction,Medium,28,Region 3,SYN-RM015,2019-01-01,4035573.400000,True
+SYN-C000196,Fictional Building Business 0196,Professional Services,Medium,19,Region 4,SYN-RM016,2020-01-01,1477736.540000,True
+SYN-C000197,Fictional Rest Business 0197,Wholesale,Large,19,Region 1,SYN-RM017,2021-01-01,5731877.990000,True
+SYN-C000198,Fictional Value Business 0198,Wholesale,Medium,30,Region 2,SYN-RM018,2021-01-01,2550342.550000,True
+SYN-C000199,Fictional Not Business 0199,Hospitality,Small,19,Region 3,SYN-RM019,2019-01-01,700459.430000,True
+SYN-C000200,Fictional Social Business 0200,Construction,Small,15,Region 4,SYN-RM020,2020-01-01,654115.790000,True
+SYN-C000201,Fictional Example Business 0201,Retail,Medium,5,Region 1,SYN-RM001,2023-01-01,2764322.050000,True
+SYN-C000202,Fictional Specific Business 0202,Wholesale,Medium,4,Region 2,SYN-RM002,2019-01-01,2080678.990000,True
+SYN-C000203,Fictional Put Business 0203,Manufacturing,Medium,13,Region 3,SYN-RM003,2022-01-01,1095542.900000,True
+SYN-C000204,Fictional Grow Business 0204,Construction,Small,32,Region 4,SYN-RM004,2018-01-01,257857.970000,True
+SYN-C000205,Fictional Brother Business 0205,Professional Services,Small,30,Region 1,SYN-RM005,2020-01-01,354935.800000,True
+SYN-C000206,Fictional Finally Business 0206,Professional Services,Medium,10,Region 2,SYN-RM006,2021-01-01,3438086.870000,True
+SYN-C000207,Fictional Learn Business 0207,Hospitality,Small,6,Region 3,SYN-RM007,2021-01-01,150000.000000,True
+SYN-C000208,Fictional Coach Business 0208,Wholesale,Large,17,Region 4,SYN-RM008,2022-01-01,14641847.610000,True
+SYN-C000209,Fictional Long Business 0209,Professional Services,Medium,12,Region 1,SYN-RM009,2018-01-01,2284884.880000,True
+SYN-C000210,Fictional About Business 0210,Hospitality,Medium,33,Region 2,SYN-RM010,2021-01-01,1107419.180000,True
+SYN-C000211,Fictional Seven Business 0211,Professional Services,Medium,2,Region 3,SYN-RM011,2022-01-01,3113524.170000,True
+SYN-C000212,Fictional Type Business 0212,Manufacturing,Medium,26,Region 4,SYN-RM012,2018-01-01,2771529.020000,True
+SYN-C000213,Fictional Serve Business 0213,Professional Services,Large,30,Region 1,SYN-RM013,2023-01-01,6903161.830000,True
+SYN-C000214,Fictional Everyone Business 0214,Manufacturing,Small,29,Region 2,SYN-RM014,2023-01-01,632028.100000,True
+SYN-C000215,Fictional Month Business 0215,Manufacturing,Large,6,Region 3,SYN-RM015,2023-01-01,5574038.100000,True
+SYN-C000216,Fictional Sound Business 0216,Professional Services,Large,30,Region 4,SYN-RM016,2022-01-01,5851995.650000,True
+SYN-C000217,Fictional Could Business 0217,Retail,Large,16,Region 1,SYN-RM017,2023-01-01,6494603.250000,True
+SYN-C000218,Fictional Movement Business 0218,Retail,Small,10,Region 2,SYN-RM018,2023-01-01,600749.910000,True
+SYN-C000219,Fictional While Business 0219,Wholesale,Small,3,Region 3,SYN-RM019,2019-01-01,331880.050000,True
+SYN-C000220,Fictional Born Business 0220,Construction,Small,35,Region 4,SYN-RM020,2021-01-01,880431.360000,True
+SYN-C000221,Fictional Truth Business 0221,Hospitality,Small,18,Region 1,SYN-RM001,2019-01-01,695761.710000,True
+SYN-C000222,Fictional Process Business 0222,Construction,Small,31,Region 2,SYN-RM002,2021-01-01,670032.840000,True
+SYN-C000223,Fictional Fire Business 0223,Manufacturing,Medium,24,Region 3,SYN-RM003,2022-01-01,1154630.930000,True
+SYN-C000224,Fictional Thought Business 0224,Hospitality,Medium,26,Region 4,SYN-RM004,2020-01-01,1781950.000000,True
+SYN-C000225,Fictional Purpose Business 0225,Hospitality,Medium,20,Region 1,SYN-RM005,2023-01-01,2756666.370000,True
+SYN-C000226,Fictional Movement Business 0226,Wholesale,Medium,20,Region 2,SYN-RM006,2022-01-01,2492275.660000,True
+SYN-C000227,Fictional Politics Business 0227,Hospitality,Medium,30,Region 3,SYN-RM007,2020-01-01,1352223.100000,True
+SYN-C000228,Fictional Decide Business 0228,Wholesale,Small,6,Region 4,SYN-RM008,2023-01-01,717945.400000,True
+SYN-C000229,Fictional Claim Business 0229,Professional Services,Small,13,Region 1,SYN-RM009,2018-01-01,631366.980000,True
+SYN-C000230,Fictional Hour Business 0230,Professional Services,Medium,23,Region 2,SYN-RM010,2021-01-01,2017925.120000,True
+SYN-C000231,Fictional Sound Business 0231,Professional Services,Medium,8,Region 3,SYN-RM011,2019-01-01,3454455.260000,True
+SYN-C000232,Fictional Color Business 0232,Construction,Medium,22,Region 4,SYN-RM012,2023-01-01,1262158.750000,True
+SYN-C000233,Fictional Notice Business 0233,Hospitality,Medium,17,Region 1,SYN-RM013,2018-01-01,1756045.400000,True
+SYN-C000234,Fictional Start Business 0234,Manufacturing,Medium,16,Region 2,SYN-RM014,2019-01-01,1377001.350000,True
+SYN-C000235,Fictional Win Business 0235,Construction,Medium,25,Region 3,SYN-RM015,2022-01-01,1759167.460000,True
+SYN-C000236,Fictional Nice Business 0236,Wholesale,Large,31,Region 4,SYN-RM016,2020-01-01,5227150.210000,True
+SYN-C000237,Fictional Why Business 0237,Wholesale,Medium,27,Region 1,SYN-RM017,2021-01-01,2074605.600000,True
+SYN-C000238,Fictional A Business 0238,Hospitality,Small,23,Region 2,SYN-RM018,2022-01-01,489661.550000,True
+SYN-C000239,Fictional Place Business 0239,Professional Services,Medium,31,Region 3,SYN-RM019,2021-01-01,2895524.010000,True
+SYN-C000240,Fictional Game Business 0240,Hospitality,Small,24,Region 4,SYN-RM020,2021-01-01,480323.930000,True
+SYN-C000241,Fictional Middle Business 0241,Wholesale,Large,24,Region 1,SYN-RM001,2018-01-01,6787276.680000,True
+SYN-C000242,Fictional After Business 0242,Wholesale,Medium,29,Region 2,SYN-RM002,2022-01-01,1860925.150000,True
+SYN-C000243,Fictional Brother Business 0243,Wholesale,Small,27,Region 3,SYN-RM003,2018-01-01,981936.510000,True
+SYN-C000244,Fictional Woman Business 0244,Retail,Small,19,Region 4,SYN-RM004,2022-01-01,434949.080000,True
+SYN-C000245,Fictional Him Business 0245,Wholesale,Medium,18,Region 1,SYN-RM005,2023-01-01,3178662.990000,True
+SYN-C000246,Fictional Unit Business 0246,Professional Services,Small,10,Region 2,SYN-RM006,2020-01-01,272062.210000,True
+SYN-C000247,Fictional Theory Business 0247,Retail,Medium,28,Region 3,SYN-RM007,2019-01-01,4929385.320000,True
+SYN-C000248,Fictional Surface Business 0248,Manufacturing,Small,11,Region 4,SYN-RM008,2023-01-01,802282.030000,True
+SYN-C000249,Fictional Food Business 0249,Professional Services,Medium,29,Region 1,SYN-RM009,2018-01-01,2248321.280000,True
+SYN-C000250,Fictional Education Business 0250,Professional Services,Medium,14,Region 2,SYN-RM010,2018-01-01,2448858.900000,True
+SYN-C000251,Fictional Article Business 0251,Wholesale,Small,24,Region 3,SYN-RM011,2021-01-01,379819.830000,True
+SYN-C000252,Fictional Effect Business 0252,Hospitality,Small,27,Region 4,SYN-RM012,2022-01-01,682645.550000,True
+SYN-C000253,Fictional Unit Business 0253,Professional Services,Medium,29,Region 1,SYN-RM013,2023-01-01,1847903.470000,True
+SYN-C000254,Fictional Our Business 0254,Construction,Large,9,Region 2,SYN-RM014,2023-01-01,5830538.420000,True
+SYN-C000255,Fictional Your Business 0255,Professional Services,Medium,2,Region 3,SYN-RM015,2019-01-01,1896399.740000,True
+SYN-C000256,Fictional Bar Business 0256,Hospitality,Medium,27,Region 4,SYN-RM016,2020-01-01,2298068.350000,True
+SYN-C000257,Fictional Bed Business 0257,Hospitality,Large,32,Region 1,SYN-RM017,2019-01-01,5360192.830000,True
+SYN-C000258,Fictional Sign Business 0258,Construction,Small,19,Region 2,SYN-RM018,2020-01-01,150000.000000,True
+SYN-C000259,Fictional Mention Business 0259,Hospitality,Small,31,Region 3,SYN-RM019,2022-01-01,999483.770000,True
+SYN-C000260,Fictional Team Business 0260,Manufacturing,Medium,5,Region 4,SYN-RM020,2019-01-01,1093659.780000,True
+SYN-C000261,Fictional Authority Business 0261,Manufacturing,Small,32,Region 1,SYN-RM001,2022-01-01,510058.830000,True
+SYN-C000262,Fictional Soon Business 0262,Retail,Medium,17,Region 2,SYN-RM002,2022-01-01,2417590.660000,True
+SYN-C000263,Fictional No Business 0263,Professional Services,Large,29,Region 3,SYN-RM003,2021-01-01,10324711.280000,True
+SYN-C000264,Fictional Space Business 0264,Construction,Medium,20,Region 4,SYN-RM004,2018-01-01,1066124.960000,True
+SYN-C000265,Fictional Car Business 0265,Retail,Small,21,Region 1,SYN-RM005,2018-01-01,283753.720000,True
+SYN-C000266,Fictional Career Business 0266,Professional Services,Medium,9,Region 2,SYN-RM006,2020-01-01,1013640.890000,True
+SYN-C000267,Fictional Receive Business 0267,Professional Services,Large,6,Region 3,SYN-RM007,2018-01-01,7163385.270000,True
+SYN-C000268,Fictional May Business 0268,Retail,Medium,20,Region 4,SYN-RM008,2018-01-01,2566095.930000,True
+SYN-C000269,Fictional Your Business 0269,Construction,Medium,17,Region 1,SYN-RM009,2023-01-01,1738487.970000,True
+SYN-C000270,Fictional Often Business 0270,Professional Services,Medium,32,Region 2,SYN-RM010,2023-01-01,1079920.390000,True
+SYN-C000271,Fictional Company Business 0271,Wholesale,Small,27,Region 3,SYN-RM011,2023-01-01,623246.920000,True
+SYN-C000272,Fictional Evidence Business 0272,Construction,Medium,15,Region 4,SYN-RM012,2019-01-01,1359315.220000,True
+SYN-C000273,Fictional News Business 0273,Manufacturing,Medium,13,Region 1,SYN-RM013,2019-01-01,2322055.850000,True
+SYN-C000274,Fictional Turn Business 0274,Manufacturing,Small,9,Region 2,SYN-RM014,2021-01-01,150000.000000,True
+SYN-C000275,Fictional Policy Business 0275,Manufacturing,Small,24,Region 3,SYN-RM015,2023-01-01,745506.340000,True
+SYN-C000276,Fictional Land Business 0276,Construction,Medium,8,Region 4,SYN-RM016,2018-01-01,3249518.860000,True
+SYN-C000277,Fictional Development Business 0277,Professional Services,Medium,31,Region 1,SYN-RM017,2018-01-01,2117714.420000,True
+SYN-C000278,Fictional Woman Business 0278,Manufacturing,Medium,21,Region 2,SYN-RM018,2022-01-01,2122951.690000,True
+SYN-C000279,Fictional Notice Business 0279,Manufacturing,Medium,16,Region 3,SYN-RM019,2023-01-01,2659984.730000,True
+SYN-C000280,Fictional Someone Business 0280,Wholesale,Small,10,Region 4,SYN-RM020,2022-01-01,895147.000000,True
+SYN-C000281,Fictional Show Business 0281,Hospitality,Small,32,Region 1,SYN-RM001,2020-01-01,971273.040000,True
+SYN-C000282,Fictional Road Business 0282,Construction,Medium,12,Region 2,SYN-RM002,2018-01-01,3113511.150000,True
+SYN-C000283,Fictional Deep Business 0283,Professional Services,Small,24,Region 3,SYN-RM003,2022-01-01,981134.620000,True
+SYN-C000284,Fictional Sell Business 0284,Manufacturing,Medium,6,Region 4,SYN-RM004,2018-01-01,1163015.290000,True
+SYN-C000285,Fictional Forget Business 0285,Wholesale,Small,34,Region 1,SYN-RM005,2019-01-01,669730.190000,True
+SYN-C000286,Fictional Inside Business 0286,Retail,Small,21,Region 2,SYN-RM006,2018-01-01,162050.260000,True
+SYN-C000287,Fictional Remain Business 0287,Wholesale,Medium,17,Region 3,SYN-RM007,2022-01-01,1213416.600000,True
+SYN-C000288,Fictional Rate Business 0288,Construction,Medium,30,Region 4,SYN-RM008,2018-01-01,1163789.890000,True
+SYN-C000289,Fictional Hour Business 0289,Manufacturing,Medium,15,Region 1,SYN-RM009,2023-01-01,3979691.810000,True
+SYN-C000290,Fictional Left Business 0290,Hospitality,Small,35,Region 2,SYN-RM010,2019-01-01,618439.010000,True
+SYN-C000291,Fictional We Business 0291,Professional Services,Medium,15,Region 3,SYN-RM011,2018-01-01,2717194.460000,True
+SYN-C000292,Fictional Nation Business 0292,Retail,Medium,16,Region 4,SYN-RM012,2023-01-01,2860710.180000,True
+SYN-C000293,Fictional Live Business 0293,Retail,Medium,2,Region 1,SYN-RM013,2019-01-01,1202417.280000,True
+SYN-C000294,Fictional Camera Business 0294,Professional Services,Small,15,Region 2,SYN-RM014,2020-01-01,332600.030000,True
+SYN-C000295,Fictional End Business 0295,Manufacturing,Small,28,Region 3,SYN-RM015,2021-01-01,556172.480000,True
+SYN-C000296,Fictional Down Business 0296,Construction,Medium,22,Region 4,SYN-RM016,2019-01-01,4289230.540000,True
+SYN-C000297,Fictional Attack Business 0297,Wholesale,Small,18,Region 1,SYN-RM017,2020-01-01,611247.900000,True
+SYN-C000298,Fictional Ground Business 0298,Construction,Medium,10,Region 2,SYN-RM018,2023-01-01,1921194.400000,True
+SYN-C000299,Fictional Against Business 0299,Professional Services,Small,3,Region 3,SYN-RM019,2023-01-01,507088.550000,True
+SYN-C000300,Fictional Per Business 0300,Hospitality,Medium,22,Region 4,SYN-RM020,2018-01-01,1552474.420000,True
+SYN-C000301,Fictional Once Business 0301,Construction,Medium,6,Region 1,SYN-RM001,2018-01-01,1913101.950000,True
+SYN-C000302,Fictional Drug Business 0302,Retail,Medium,29,Region 2,SYN-RM002,2018-01-01,3075195.450000,True
+SYN-C000303,Fictional Per Business 0303,Retail,Small,5,Region 3,SYN-RM003,2020-01-01,173701.720000,True
+SYN-C000304,Fictional Discussion Business 0304,Construction,Medium,9,Region 4,SYN-RM004,2021-01-01,4539551.780000,True
+SYN-C000305,Fictional Account Business 0305,Hospitality,Medium,30,Region 1,SYN-RM005,2019-01-01,1613769.140000,True
+SYN-C000306,Fictional Avoid Business 0306,Wholesale,Large,17,Region 2,SYN-RM006,2018-01-01,8102755.900000,True
+SYN-C000307,Fictional Second Business 0307,Wholesale,Small,28,Region 3,SYN-RM007,2019-01-01,628773.210000,True
+SYN-C000308,Fictional Program Business 0308,Construction,Medium,20,Region 4,SYN-RM008,2020-01-01,1105378.680000,True
+SYN-C000309,Fictional Artist Business 0309,Wholesale,Large,22,Region 1,SYN-RM009,2018-01-01,8007666.730000,True
+SYN-C000310,Fictional Drop Business 0310,Professional Services,Small,7,Region 2,SYN-RM010,2019-01-01,612431.340000,True
+SYN-C000311,Fictional Author Business 0311,Manufacturing,Medium,29,Region 3,SYN-RM011,2019-01-01,2236490.250000,True
+SYN-C000312,Fictional Western Business 0312,Construction,Medium,23,Region 4,SYN-RM012,2019-01-01,2686104.570000,True
+SYN-C000313,Fictional Almost Business 0313,Hospitality,Medium,4,Region 1,SYN-RM013,2022-01-01,2030417.180000,True
+SYN-C000314,Fictional Trade Business 0314,Professional Services,Medium,25,Region 2,SYN-RM014,2018-01-01,1590310.790000,True
+SYN-C000315,Fictional Give Business 0315,Manufacturing,Large,26,Region 3,SYN-RM015,2019-01-01,7258805.110000,True
+SYN-C000316,Fictional Avoid Business 0316,Hospitality,Large,6,Region 4,SYN-RM016,2023-01-01,5342795.470000,True
+SYN-C000317,Fictional My Business 0317,Retail,Medium,22,Region 1,SYN-RM017,2022-01-01,1485780.110000,True
+SYN-C000318,Fictional Economy Business 0318,Retail,Small,4,Region 2,SYN-RM018,2019-01-01,519801.450000,True
+SYN-C000319,Fictional Family Business 0319,Hospitality,Small,19,Region 3,SYN-RM019,2019-01-01,426121.800000,True
+SYN-C000320,Fictional Relationship Business 0320,Retail,Medium,20,Region 4,SYN-RM020,2023-01-01,1361716.940000,True
+SYN-C000321,Fictional Mention Business 0321,Manufacturing,Medium,21,Region 1,SYN-RM001,2021-01-01,1484922.540000,True
+SYN-C000322,Fictional Difficult Business 0322,Wholesale,Medium,16,Region 2,SYN-RM002,2021-01-01,1531873.050000,True
+SYN-C000323,Fictional Notice Business 0323,Retail,Medium,23,Region 3,SYN-RM003,2022-01-01,1272508.510000,True
+SYN-C000324,Fictional Cause Business 0324,Retail,Small,6,Region 4,SYN-RM004,2019-01-01,447844.000000,True
+SYN-C000325,Fictional Several Business 0325,Professional Services,Small,24,Region 1,SYN-RM005,2019-01-01,269043.370000,True
+SYN-C000326,Fictional Worry Business 0326,Retail,Medium,7,Region 2,SYN-RM006,2019-01-01,3782577.890000,True
+SYN-C000327,Fictional Us Business 0327,Wholesale,Medium,31,Region 3,SYN-RM007,2021-01-01,1524180.650000,True
+SYN-C000328,Fictional Own Business 0328,Manufacturing,Small,19,Region 4,SYN-RM008,2020-01-01,524649.720000,True
+SYN-C000329,Fictional Part Business 0329,Hospitality,Medium,25,Region 1,SYN-RM009,2022-01-01,4990090.260000,True
+SYN-C000330,Fictional Material Business 0330,Manufacturing,Medium,26,Region 2,SYN-RM010,2023-01-01,1295468.260000,True
+SYN-C000331,Fictional Eight Business 0331,Retail,Medium,16,Region 3,SYN-RM011,2023-01-01,1805538.850000,True
+SYN-C000332,Fictional Still Business 0332,Retail,Small,14,Region 4,SYN-RM012,2021-01-01,848309.310000,True
+SYN-C000333,Fictional Material Business 0333,Professional Services,Small,15,Region 1,SYN-RM013,2022-01-01,808824.490000,True
+SYN-C000334,Fictional Surface Business 0334,Wholesale,Medium,7,Region 2,SYN-RM014,2022-01-01,1002599.860000,True
+SYN-C000335,Fictional Investment Business 0335,Professional Services,Small,7,Region 3,SYN-RM015,2019-01-01,497595.340000,True
+SYN-C000336,Fictional Customer Business 0336,Construction,Large,33,Region 4,SYN-RM016,2023-01-01,5756775.650000,True
+SYN-C000337,Fictional Between Business 0337,Wholesale,Small,33,Region 1,SYN-RM017,2020-01-01,487002.460000,True
+SYN-C000338,Fictional Bill Business 0338,Professional Services,Small,23,Region 2,SYN-RM018,2023-01-01,250508.240000,True
+SYN-C000339,Fictional Reason Business 0339,Manufacturing,Medium,14,Region 3,SYN-RM019,2018-01-01,1313583.800000,True
+SYN-C000340,Fictional Lawyer Business 0340,Hospitality,Small,20,Region 4,SYN-RM020,2022-01-01,150000.000000,True
+SYN-C000341,Fictional Health Business 0341,Wholesale,Small,21,Region 1,SYN-RM001,2022-01-01,503132.220000,True
+SYN-C000342,Fictional Land Business 0342,Wholesale,Small,31,Region 2,SYN-RM002,2022-01-01,718379.080000,True
+SYN-C000343,Fictional Item Business 0343,Manufacturing,Large,5,Region 3,SYN-RM003,2020-01-01,5700765.490000,True
+SYN-C000344,Fictional Manage Business 0344,Hospitality,Medium,9,Region 4,SYN-RM004,2023-01-01,1067529.580000,True
+SYN-C000345,Fictional Treat Business 0345,Wholesale,Large,14,Region 1,SYN-RM005,2023-01-01,7771754.300000,True
+SYN-C000346,Fictional Shoulder Business 0346,Wholesale,Medium,23,Region 2,SYN-RM006,2019-01-01,1663617.380000,True
+SYN-C000347,Fictional Arm Business 0347,Professional Services,Medium,22,Region 3,SYN-RM007,2020-01-01,3297652.130000,True
+SYN-C000348,Fictional Report Business 0348,Professional Services,Medium,21,Region 4,SYN-RM008,2023-01-01,3687827.090000,True
+SYN-C000349,Fictional Ready Business 0349,Manufacturing,Medium,17,Region 1,SYN-RM009,2020-01-01,3482187.660000,True
+SYN-C000350,Fictional Race Business 0350,Professional Services,Medium,28,Region 2,SYN-RM010,2018-01-01,1913887.590000,True
+SYN-C000351,Fictional Billion Business 0351,Construction,Medium,7,Region 3,SYN-RM011,2018-01-01,2199449.370000,True
+SYN-C000352,Fictional Ask Business 0352,Professional Services,Medium,26,Region 4,SYN-RM012,2019-01-01,2766916.370000,True
+SYN-C000353,Fictional Interesting Business 0353,Construction,Medium,5,Region 1,SYN-RM013,2021-01-01,1389576.130000,True
+SYN-C000354,Fictional Should Business 0354,Wholesale,Small,18,Region 2,SYN-RM014,2019-01-01,760072.530000,True
+SYN-C000355,Fictional Group Business 0355,Wholesale,Small,8,Region 3,SYN-RM015,2018-01-01,997895.100000,True
+SYN-C000356,Fictional Such Business 0356,Professional Services,Medium,6,Region 4,SYN-RM016,2018-01-01,1405272.920000,True
+SYN-C000357,Fictional Training Business 0357,Retail,Medium,18,Region 1,SYN-RM017,2019-01-01,2922846.550000,True
+SYN-C000358,Fictional Boy Business 0358,Manufacturing,Small,32,Region 2,SYN-RM018,2018-01-01,243446.150000,True
+SYN-C000359,Fictional Energy Business 0359,Construction,Medium,10,Region 3,SYN-RM019,2019-01-01,1190734.670000,True
+SYN-C000360,Fictional Dark Business 0360,Hospitality,Medium,28,Region 4,SYN-RM020,2023-01-01,1430331.320000,True
+SYN-C000361,Fictional Customer Business 0361,Retail,Small,35,Region 1,SYN-RM001,2020-01-01,511166.340000,True
+SYN-C000362,Fictional Not Business 0362,Wholesale,Small,15,Region 2,SYN-RM002,2018-01-01,519874.300000,True
+SYN-C000363,Fictional List Business 0363,Wholesale,Small,12,Region 3,SYN-RM003,2020-01-01,975033.910000,True
+SYN-C000364,Fictional Challenge Business 0364,Retail,Small,27,Region 4,SYN-RM004,2021-01-01,291037.320000,True
+SYN-C000365,Fictional Knowledge Business 0365,Professional Services,Small,20,Region 1,SYN-RM005,2018-01-01,996526.290000,True
+SYN-C000366,Fictional Cover Business 0366,Construction,Medium,5,Region 2,SYN-RM006,2023-01-01,1092349.000000,True
+SYN-C000367,Fictional Family Business 0367,Professional Services,Small,21,Region 3,SYN-RM007,2022-01-01,647450.710000,True
+SYN-C000368,Fictional Maintain Business 0368,Construction,Small,30,Region 4,SYN-RM008,2020-01-01,341512.660000,True
+SYN-C000369,Fictional Enjoy Business 0369,Retail,Medium,27,Region 1,SYN-RM009,2018-01-01,1276879.330000,True
+SYN-C000370,Fictional Two Business 0370,Construction,Small,15,Region 2,SYN-RM010,2018-01-01,813338.720000,True
+SYN-C000371,Fictional Wind Business 0371,Construction,Small,32,Region 3,SYN-RM011,2020-01-01,436626.920000,True
+SYN-C000372,Fictional Bag Business 0372,Construction,Small,23,Region 4,SYN-RM012,2019-01-01,528377.920000,True
+SYN-C000373,Fictional Level Business 0373,Manufacturing,Medium,16,Region 1,SYN-RM013,2019-01-01,2490024.190000,True
+SYN-C000374,Fictional System Business 0374,Construction,Medium,6,Region 2,SYN-RM014,2023-01-01,3752882.940000,True
+SYN-C000375,Fictional Training Business 0375,Manufacturing,Small,31,Region 3,SYN-RM015,2021-01-01,588438.420000,True
+SYN-C000376,Fictional Total Business 0376,Manufacturing,Large,13,Region 4,SYN-RM016,2019-01-01,5364197.150000,True
+SYN-C000377,Fictional Oil Business 0377,Construction,Small,7,Region 1,SYN-RM017,2018-01-01,644574.060000,True
+SYN-C000378,Fictional Billion Business 0378,Wholesale,Small,13,Region 2,SYN-RM018,2021-01-01,853519.140000,True
+SYN-C000379,Fictional Apply Business 0379,Construction,Medium,18,Region 3,SYN-RM019,2020-01-01,1250140.110000,True
+SYN-C000380,Fictional Reach Business 0380,Manufacturing,Medium,14,Region 4,SYN-RM020,2018-01-01,1178018.250000,True
+SYN-C000381,Fictional Now Business 0381,Professional Services,Medium,6,Region 1,SYN-RM001,2018-01-01,2248801.270000,True
+SYN-C000382,Fictional Think Business 0382,Professional Services,Large,6,Region 2,SYN-RM002,2018-01-01,7025270.640000,True
+SYN-C000383,Fictional Administration Business 0383,Professional Services,Small,20,Region 3,SYN-RM003,2018-01-01,492218.850000,True
+SYN-C000384,Fictional Better Business 0384,Construction,Medium,14,Region 4,SYN-RM004,2018-01-01,3588608.180000,True
+SYN-C000385,Fictional With Business 0385,Retail,Medium,33,Region 1,SYN-RM005,2023-01-01,3409493.350000,True
+SYN-C000386,Fictional Some Business 0386,Manufacturing,Medium,35,Region 2,SYN-RM006,2020-01-01,4594134.530000,True
+SYN-C000387,Fictional Time Business 0387,Manufacturing,Medium,20,Region 3,SYN-RM007,2023-01-01,2020891.270000,True
+SYN-C000388,Fictional Economic Business 0388,Wholesale,Medium,29,Region 4,SYN-RM008,2022-01-01,2113258.120000,True
+SYN-C000389,Fictional Compare Business 0389,Professional Services,Medium,17,Region 1,SYN-RM009,2022-01-01,2256172.090000,True
+SYN-C000390,Fictional Investment Business 0390,Wholesale,Small,21,Region 2,SYN-RM010,2018-01-01,486840.900000,True
+SYN-C000391,Fictional Mention Business 0391,Wholesale,Small,13,Region 3,SYN-RM011,2021-01-01,927428.860000,True
+SYN-C000392,Fictional Medical Business 0392,Manufacturing,Medium,23,Region 4,SYN-RM012,2022-01-01,1466187.630000,True
+SYN-C000393,Fictional Different Business 0393,Hospitality,Medium,9,Region 1,SYN-RM013,2021-01-01,1663568.850000,True
+SYN-C000394,Fictional Treatment Business 0394,Professional Services,Medium,27,Region 2,SYN-RM014,2018-01-01,1323458.470000,True
+SYN-C000395,Fictional Institution Business 0395,Manufacturing,Medium,35,Region 3,SYN-RM015,2023-01-01,1151941.720000,True
+SYN-C000396,Fictional Weight Business 0396,Retail,Medium,29,Region 4,SYN-RM016,2018-01-01,3534703.110000,True
+SYN-C000397,Fictional Artist Business 0397,Professional Services,Medium,7,Region 1,SYN-RM017,2020-01-01,1327923.720000,True
+SYN-C000398,Fictional Community Business 0398,Professional Services,Medium,24,Region 2,SYN-RM018,2019-01-01,2639165.930000,True
+SYN-C000399,Fictional Hundred Business 0399,Professional Services,Medium,26,Region 3,SYN-RM019,2019-01-01,4195173.500000,True
+SYN-C000400,Fictional Able Business 0400,Manufacturing,Small,4,Region 4,SYN-RM020,2020-01-01,382314.950000,True
+SYN-C000401,Fictional In Business 0401,Manufacturing,Small,34,Region 1,SYN-RM001,2021-01-01,343114.850000,True
+SYN-C000402,Fictional Evidence Business 0402,Construction,Medium,35,Region 2,SYN-RM002,2023-01-01,2954393.490000,True
+SYN-C000403,Fictional With Business 0403,Manufacturing,Small,3,Region 3,SYN-RM003,2019-01-01,386908.830000,True
+SYN-C000404,Fictional Step Business 0404,Wholesale,Medium,27,Region 4,SYN-RM004,2021-01-01,1101861.110000,True
+SYN-C000405,Fictional Still Business 0405,Construction,Large,12,Region 1,SYN-RM005,2022-01-01,5988256.060000,True
+SYN-C000406,Fictional Look Business 0406,Professional Services,Large,15,Region 2,SYN-RM006,2020-01-01,5122061.120000,True
+SYN-C000407,Fictional Feeling Business 0407,Wholesale,Medium,21,Region 3,SYN-RM007,2021-01-01,3043387.400000,True
+SYN-C000408,Fictional Land Business 0408,Manufacturing,Medium,13,Region 4,SYN-RM008,2020-01-01,1663153.370000,True
+SYN-C000409,Fictional Same Business 0409,Construction,Small,24,Region 1,SYN-RM009,2022-01-01,734670.520000,True
+SYN-C000410,Fictional Side Business 0410,Professional Services,Medium,10,Region 2,SYN-RM010,2018-01-01,2682379.570000,True
+SYN-C000411,Fictional Step Business 0411,Hospitality,Medium,5,Region 3,SYN-RM011,2018-01-01,2776149.020000,True
+SYN-C000412,Fictional Only Business 0412,Manufacturing,Medium,12,Region 4,SYN-RM012,2018-01-01,3012966.670000,True
+SYN-C000413,Fictional Recently Business 0413,Wholesale,Large,13,Region 1,SYN-RM013,2018-01-01,5781591.520000,True
+SYN-C000414,Fictional Serious Business 0414,Hospitality,Small,27,Region 2,SYN-RM014,2019-01-01,304875.700000,True
+SYN-C000415,Fictional Message Business 0415,Wholesale,Medium,24,Region 3,SYN-RM015,2023-01-01,1543502.360000,True
+SYN-C000416,Fictional Clear Business 0416,Construction,Medium,11,Region 4,SYN-RM016,2019-01-01,1066624.590000,True
+SYN-C000417,Fictional Customer Business 0417,Construction,Medium,24,Region 1,SYN-RM017,2022-01-01,1983246.050000,True
+SYN-C000418,Fictional Fine Business 0418,Construction,Medium,20,Region 2,SYN-RM018,2022-01-01,2637462.750000,True
+SYN-C000419,Fictional Director Business 0419,Hospitality,Small,34,Region 3,SYN-RM019,2022-01-01,185127.570000,True
+SYN-C000420,Fictional Article Business 0420,Construction,Medium,4,Region 4,SYN-RM020,2019-01-01,1462413.450000,True
+SYN-C000421,Fictional Particularly Business 0421,Hospitality,Medium,35,Region 1,SYN-RM001,2020-01-01,1780912.260000,True
+SYN-C000422,Fictional Simply Business 0422,Hospitality,Medium,20,Region 2,SYN-RM002,2020-01-01,2328891.720000,True
+SYN-C000423,Fictional Occur Business 0423,Hospitality,Medium,31,Region 3,SYN-RM003,2020-01-01,3748361.990000,True
+SYN-C000424,Fictional Ask Business 0424,Professional Services,Medium,30,Region 4,SYN-RM004,2023-01-01,3157827.050000,True
+SYN-C000425,Fictional Small Business 0425,Construction,Medium,12,Region 1,SYN-RM005,2022-01-01,3705020.770000,True
+SYN-C000426,Fictional Former Business 0426,Professional Services,Medium,29,Region 2,SYN-RM006,2020-01-01,1618207.470000,True
+SYN-C000427,Fictional Art Business 0427,Hospitality,Small,10,Region 3,SYN-RM007,2023-01-01,881359.210000,True
+SYN-C000428,Fictional Apply Business 0428,Wholesale,Small,33,Region 4,SYN-RM008,2023-01-01,592529.590000,True
+SYN-C000429,Fictional Pattern Business 0429,Retail,Medium,27,Region 1,SYN-RM009,2019-01-01,1210004.750000,True
+SYN-C000430,Fictional Me Business 0430,Hospitality,Large,23,Region 2,SYN-RM010,2020-01-01,14989696.720000,True
+SYN-C000431,Fictional Morning Business 0431,Hospitality,Medium,10,Region 3,SYN-RM011,2021-01-01,1693571.710000,True
+SYN-C000432,Fictional Wide Business 0432,Construction,Medium,17,Region 4,SYN-RM012,2021-01-01,1643650.960000,True
+SYN-C000433,Fictional Tonight Business 0433,Professional Services,Large,15,Region 1,SYN-RM013,2021-01-01,5846464.470000,True
+SYN-C000434,Fictional Nice Business 0434,Hospitality,Medium,21,Region 2,SYN-RM014,2019-01-01,4306443.050000,True
+SYN-C000435,Fictional Coach Business 0435,Professional Services,Small,2,Region 3,SYN-RM015,2020-01-01,530532.010000,True
+SYN-C000436,Fictional Art Business 0436,Hospitality,Large,9,Region 4,SYN-RM016,2018-01-01,5797107.590000,True
+SYN-C000437,Fictional Movie Business 0437,Hospitality,Small,28,Region 1,SYN-RM017,2018-01-01,509463.700000,True
+SYN-C000438,Fictional Be Business 0438,Professional Services,Small,11,Region 2,SYN-RM018,2019-01-01,323464.760000,True
+SYN-C000439,Fictional Today Business 0439,Wholesale,Large,7,Region 3,SYN-RM019,2020-01-01,5142564.990000,True
+SYN-C000440,Fictional Cultural Business 0440,Manufacturing,Small,11,Region 4,SYN-RM020,2023-01-01,841334.140000,True
+SYN-C000441,Fictional Authority Business 0441,Manufacturing,Medium,4,Region 1,SYN-RM001,2021-01-01,1272271.870000,True
+SYN-C000442,Fictional Physical Business 0442,Hospitality,Medium,18,Region 2,SYN-RM002,2023-01-01,1557855.350000,True
+SYN-C000443,Fictional Author Business 0443,Construction,Small,24,Region 3,SYN-RM003,2022-01-01,389179.450000,True
+SYN-C000444,Fictional Republican Business 0444,Hospitality,Medium,7,Region 4,SYN-RM004,2020-01-01,2732104.200000,True
+SYN-C000445,Fictional Training Business 0445,Manufacturing,Medium,20,Region 1,SYN-RM005,2019-01-01,1480781.200000,True
+SYN-C000446,Fictional Easy Business 0446,Hospitality,Medium,2,Region 2,SYN-RM006,2023-01-01,1743396.440000,True
+SYN-C000447,Fictional International Business 0447,Retail,Medium,35,Region 3,SYN-RM007,2018-01-01,1378181.580000,True
+SYN-C000448,Fictional Call Business 0448,Retail,Medium,6,Region 4,SYN-RM008,2023-01-01,2349771.910000,True
+SYN-C000449,Fictional Year Business 0449,Construction,Medium,12,Region 1,SYN-RM009,2019-01-01,4297716.320000,True
+SYN-C000450,Fictional Voice Business 0450,Professional Services,Medium,14,Region 2,SYN-RM010,2022-01-01,2593268.730000,True
+SYN-C000451,Fictional Over Business 0451,Hospitality,Medium,14,Region 3,SYN-RM011,2022-01-01,2858155.370000,True
+SYN-C000452,Fictional Employee Business 0452,Hospitality,Small,33,Region 4,SYN-RM012,2020-01-01,690471.870000,True
+SYN-C000453,Fictional Particular Business 0453,Professional Services,Large,12,Region 1,SYN-RM013,2022-01-01,6034649.750000,True
+SYN-C000454,Fictional Phone Business 0454,Hospitality,Small,9,Region 2,SYN-RM014,2023-01-01,491571.950000,True
+SYN-C000455,Fictional Among Business 0455,Construction,Medium,6,Region 3,SYN-RM015,2023-01-01,1583327.620000,True
+SYN-C000456,Fictional President Business 0456,Retail,Medium,12,Region 4,SYN-RM016,2021-01-01,1042146.510000,True
+SYN-C000457,Fictional Beat Business 0457,Construction,Medium,4,Region 1,SYN-RM017,2019-01-01,2253063.520000,True
+SYN-C000458,Fictional Kind Business 0458,Retail,Small,30,Region 2,SYN-RM018,2022-01-01,720483.170000,True
+SYN-C000459,Fictional Really Business 0459,Retail,Medium,3,Region 3,SYN-RM019,2022-01-01,1136373.520000,True
+SYN-C000460,Fictional Past Business 0460,Hospitality,Medium,2,Region 4,SYN-RM020,2018-01-01,1337718.750000,True
+SYN-C000461,Fictional Other Business 0461,Retail,Small,31,Region 1,SYN-RM001,2021-01-01,628130.370000,True
+SYN-C000462,Fictional Necessary Business 0462,Manufacturing,Small,3,Region 2,SYN-RM002,2018-01-01,765619.020000,True
+SYN-C000463,Fictional Four Business 0463,Professional Services,Medium,15,Region 3,SYN-RM003,2021-01-01,4995369.980000,True
+SYN-C000464,Fictional Worry Business 0464,Construction,Medium,8,Region 4,SYN-RM004,2021-01-01,1521742.240000,True
+SYN-C000465,Fictional Every Business 0465,Manufacturing,Large,27,Region 1,SYN-RM005,2019-01-01,7518334.930000,True
+SYN-C000466,Fictional Democratic Business 0466,Professional Services,Small,23,Region 2,SYN-RM006,2019-01-01,219373.610000,True
+SYN-C000467,Fictional Relationship Business 0467,Manufacturing,Medium,27,Region 3,SYN-RM007,2022-01-01,2829467.820000,True
+SYN-C000468,Fictional Sense Business 0468,Retail,Medium,7,Region 4,SYN-RM008,2019-01-01,1019646.320000,True
+SYN-C000469,Fictional Former Business 0469,Retail,Medium,29,Region 1,SYN-RM009,2022-01-01,1749525.100000,True
+SYN-C000470,Fictional Edge Business 0470,Wholesale,Medium,35,Region 2,SYN-RM010,2021-01-01,1903134.840000,True
+SYN-C000471,Fictional Evidence Business 0471,Construction,Medium,17,Region 3,SYN-RM011,2019-01-01,1631617.590000,True
+SYN-C000472,Fictional Individual Business 0472,Wholesale,Large,34,Region 4,SYN-RM012,2023-01-01,5952404.980000,True
+SYN-C000473,Fictional Catch Business 0473,Professional Services,Small,8,Region 1,SYN-RM013,2020-01-01,475576.530000,True
+SYN-C000474,Fictional Remain Business 0474,Manufacturing,Medium,10,Region 2,SYN-RM014,2022-01-01,1153281.870000,True
+SYN-C000475,Fictional Quite Business 0475,Retail,Small,21,Region 3,SYN-RM015,2020-01-01,648359.370000,True
+SYN-C000476,Fictional First Business 0476,Hospitality,Large,17,Region 4,SYN-RM016,2018-01-01,8134744.170000,True
+SYN-C000477,Fictional Lot Business 0477,Manufacturing,Small,3,Region 1,SYN-RM017,2020-01-01,492995.930000,True
+SYN-C000478,Fictional Four Business 0478,Professional Services,Medium,11,Region 2,SYN-RM018,2020-01-01,1314495.920000,True
+SYN-C000479,Fictional Woman Business 0479,Construction,Small,27,Region 3,SYN-RM019,2020-01-01,321195.240000,True
+SYN-C000480,Fictional Society Business 0480,Manufacturing,Medium,27,Region 4,SYN-RM020,2019-01-01,1691617.520000,True
+SYN-C000481,Fictional Would Business 0481,Retail,Small,19,Region 1,SYN-RM001,2020-01-01,418961.980000,True
+SYN-C000482,Fictional Baby Business 0482,Manufacturing,Small,30,Region 2,SYN-RM002,2018-01-01,686800.330000,True
+SYN-C000483,Fictional Act Business 0483,Professional Services,Small,2,Region 3,SYN-RM003,2021-01-01,397294.010000,True
+SYN-C000484,Fictional Low Business 0484,Wholesale,Medium,28,Region 4,SYN-RM004,2019-01-01,2078372.210000,True
+SYN-C000485,Fictional Pretty Business 0485,Wholesale,Large,32,Region 1,SYN-RM005,2022-01-01,6294519.840000,True
+SYN-C000486,Fictional Order Business 0486,Professional Services,Medium,18,Region 2,SYN-RM006,2018-01-01,1151042.470000,True
+SYN-C000487,Fictional Black Business 0487,Professional Services,Large,9,Region 3,SYN-RM007,2020-01-01,9458840.560000,True
+SYN-C000488,Fictional Back Business 0488,Construction,Small,2,Region 4,SYN-RM008,2019-01-01,609133.990000,True
+SYN-C000489,Fictional Note Business 0489,Wholesale,Small,5,Region 1,SYN-RM009,2018-01-01,418146.000000,True
+SYN-C000490,Fictional Different Business 0490,Professional Services,Medium,4,Region 2,SYN-RM010,2018-01-01,2189569.210000,True
+SYN-C000491,Fictional Move Business 0491,Manufacturing,Small,31,Region 3,SYN-RM011,2020-01-01,774132.370000,True
+SYN-C000492,Fictional Evidence Business 0492,Professional Services,Small,19,Region 4,SYN-RM012,2020-01-01,636962.370000,True
+SYN-C000493,Fictional Cause Business 0493,Professional Services,Medium,11,Region 1,SYN-RM013,2020-01-01,3410676.110000,True
+SYN-C000494,Fictional Worker Business 0494,Construction,Medium,3,Region 2,SYN-RM014,2023-01-01,1231004.620000,True
+SYN-C000495,Fictional Happy Business 0495,Hospitality,Small,5,Region 3,SYN-RM015,2018-01-01,396682.380000,True
+SYN-C000496,Fictional Upon Business 0496,Retail,Small,15,Region 4,SYN-RM016,2018-01-01,173287.170000,True
+SYN-C000497,Fictional Authority Business 0497,Construction,Medium,30,Region 1,SYN-RM017,2018-01-01,1408147.600000,True
+SYN-C000498,Fictional Until Business 0498,Hospitality,Medium,6,Region 2,SYN-RM018,2023-01-01,2170424.760000,True
+SYN-C000499,Fictional Election Business 0499,Professional Services,Medium,3,Region 3,SYN-RM019,2018-01-01,2416313.060000,True
+SYN-C000500,Fictional Hope Business 0500,Construction,Small,4,Region 4,SYN-RM020,2021-01-01,849314.700000,True
+SYN-C000501,Fictional Feel Business 0501,Wholesale,Small,29,Region 1,SYN-RM001,2022-01-01,871459.800000,True
+SYN-C000502,Fictional Coach Business 0502,Wholesale,Small,20,Region 2,SYN-RM002,2020-01-01,476907.620000,True
+SYN-C000503,Fictional Left Business 0503,Construction,Medium,35,Region 3,SYN-RM003,2022-01-01,1594674.610000,True
+SYN-C000504,Fictional These Business 0504,Professional Services,Small,17,Region 4,SYN-RM004,2018-01-01,691833.400000,True
+SYN-C000505,Fictional Of Business 0505,Manufacturing,Medium,12,Region 1,SYN-RM005,2023-01-01,2642619.400000,True
+SYN-C000506,Fictional Score Business 0506,Retail,Medium,3,Region 2,SYN-RM006,2021-01-01,4941264.310000,True
+SYN-C000507,Fictional Five Business 0507,Manufacturing,Small,14,Region 3,SYN-RM007,2020-01-01,886975.220000,True
+SYN-C000508,Fictional Population Business 0508,Professional Services,Medium,14,Region 4,SYN-RM008,2023-01-01,1566864.890000,True
+SYN-C000509,Fictional Surface Business 0509,Hospitality,Medium,33,Region 1,SYN-RM009,2022-01-01,1247951.190000,True
+SYN-C000510,Fictional Ready Business 0510,Construction,Medium,34,Region 2,SYN-RM010,2021-01-01,3681880.830000,True
+SYN-C000511,Fictional Newspaper Business 0511,Professional Services,Medium,17,Region 3,SYN-RM011,2020-01-01,1956900.120000,True
+SYN-C000512,Fictional Across Business 0512,Manufacturing,Small,34,Region 4,SYN-RM012,2020-01-01,808502.870000,True
+SYN-C000513,Fictional Region Business 0513,Retail,Large,14,Region 1,SYN-RM013,2019-01-01,7668761.140000,True
+SYN-C000514,Fictional Technology Business 0514,Retail,Medium,34,Region 2,SYN-RM014,2020-01-01,3795662.460000,True
+SYN-C000515,Fictional Once Business 0515,Wholesale,Small,9,Region 3,SYN-RM015,2022-01-01,960491.320000,True
+SYN-C000516,Fictional Firm Business 0516,Hospitality,Medium,19,Region 4,SYN-RM016,2022-01-01,1316221.990000,True
+SYN-C000517,Fictional Work Business 0517,Wholesale,Medium,33,Region 1,SYN-RM017,2018-01-01,2724339.460000,True
+SYN-C000518,Fictional Record Business 0518,Hospitality,Large,24,Region 2,SYN-RM018,2023-01-01,6325612.150000,True
+SYN-C000519,Fictional Body Business 0519,Wholesale,Medium,15,Region 3,SYN-RM019,2023-01-01,2093608.530000,True
+SYN-C000520,Fictional Wrong Business 0520,Manufacturing,Medium,22,Region 4,SYN-RM020,2018-01-01,1501818.930000,True
+SYN-C000521,Fictional Unit Business 0521,Wholesale,Medium,25,Region 1,SYN-RM001,2018-01-01,2075086.180000,True
+SYN-C000522,Fictional Center Business 0522,Retail,Medium,7,Region 2,SYN-RM002,2023-01-01,4565039.130000,True
+SYN-C000523,Fictional Everything Business 0523,Construction,Medium,18,Region 3,SYN-RM003,2020-01-01,3128445.280000,True
+SYN-C000524,Fictional Business Business 0524,Retail,Medium,33,Region 4,SYN-RM004,2019-01-01,1863419.850000,True
+SYN-C000525,Fictional Voice Business 0525,Wholesale,Large,31,Region 1,SYN-RM005,2023-01-01,9853467.090000,True
+SYN-C000526,Fictional Both Business 0526,Manufacturing,Medium,24,Region 2,SYN-RM006,2018-01-01,1725834.430000,True
+SYN-C000527,Fictional Situation Business 0527,Professional Services,Small,28,Region 3,SYN-RM007,2019-01-01,194320.090000,True
+SYN-C000528,Fictional On Business 0528,Manufacturing,Medium,4,Region 4,SYN-RM008,2023-01-01,3279524.340000,True
+SYN-C000529,Fictional Clearly Business 0529,Hospitality,Small,31,Region 1,SYN-RM009,2023-01-01,489142.240000,True
+SYN-C000530,Fictional Expert Business 0530,Manufacturing,Medium,21,Region 2,SYN-RM010,2020-01-01,1545421.960000,True
+SYN-C000531,Fictional Father Business 0531,Retail,Medium,5,Region 3,SYN-RM011,2021-01-01,2632795.890000,True
+SYN-C000532,Fictional Point Business 0532,Professional Services,Medium,23,Region 4,SYN-RM012,2023-01-01,1157129.050000,True
+SYN-C000533,Fictional Develop Business 0533,Hospitality,Medium,22,Region 1,SYN-RM013,2023-01-01,4738621.540000,True
+SYN-C000534,Fictional Series Business 0534,Professional Services,Medium,6,Region 2,SYN-RM014,2018-01-01,1055845.850000,True
+SYN-C000535,Fictional Gun Business 0535,Wholesale,Small,29,Region 3,SYN-RM015,2018-01-01,773469.680000,True
+SYN-C000536,Fictional Democrat Business 0536,Construction,Medium,26,Region 4,SYN-RM016,2023-01-01,2513501.600000,True
+SYN-C000537,Fictional Right Business 0537,Retail,Medium,2,Region 1,SYN-RM017,2021-01-01,2099567.970000,True
+SYN-C000538,Fictional Protect Business 0538,Professional Services,Medium,21,Region 2,SYN-RM018,2018-01-01,4551160.830000,True
+SYN-C000539,Fictional Tonight Business 0539,Manufacturing,Medium,24,Region 3,SYN-RM019,2022-01-01,1438144.930000,True
+SYN-C000540,Fictional Everything Business 0540,Manufacturing,Medium,21,Region 4,SYN-RM020,2020-01-01,1825439.850000,True
+SYN-C000541,Fictional Mouth Business 0541,Wholesale,Small,19,Region 1,SYN-RM001,2020-01-01,324664.400000,True
+SYN-C000542,Fictional Middle Business 0542,Retail,Medium,18,Region 2,SYN-RM002,2020-01-01,2972540.280000,True
+SYN-C000543,Fictional Enter Business 0543,Construction,Medium,5,Region 3,SYN-RM003,2019-01-01,3377736.690000,True
+SYN-C000544,Fictional Western Business 0544,Professional Services,Medium,16,Region 4,SYN-RM004,2023-01-01,2172464.950000,True
+SYN-C000545,Fictional Whatever Business 0545,Construction,Medium,4,Region 1,SYN-RM005,2023-01-01,2744182.050000,True
+SYN-C000546,Fictional Throughout Business 0546,Wholesale,Medium,14,Region 2,SYN-RM006,2020-01-01,1198864.800000,True
+SYN-C000547,Fictional Approach Business 0547,Retail,Medium,16,Region 3,SYN-RM007,2019-01-01,2228950.660000,True
+SYN-C000548,Fictional Best Business 0548,Manufacturing,Small,18,Region 4,SYN-RM008,2023-01-01,550852.760000,True
+SYN-C000549,Fictional Protect Business 0549,Manufacturing,Small,3,Region 1,SYN-RM009,2021-01-01,732580.780000,True
+SYN-C000550,Fictional Land Business 0550,Construction,Medium,15,Region 2,SYN-RM010,2018-01-01,1324190.790000,True
+SYN-C000551,Fictional Themselves Business 0551,Construction,Small,33,Region 3,SYN-RM011,2023-01-01,430503.980000,True
+SYN-C000552,Fictional Factor Business 0552,Retail,Medium,2,Region 4,SYN-RM012,2023-01-01,2916141.480000,True
+SYN-C000553,Fictional Another Business 0553,Wholesale,Medium,7,Region 1,SYN-RM013,2018-01-01,1027458.160000,True
+SYN-C000554,Fictional About Business 0554,Wholesale,Small,26,Region 2,SYN-RM014,2020-01-01,994680.670000,True
+SYN-C000555,Fictional Goal Business 0555,Hospitality,Medium,17,Region 3,SYN-RM015,2019-01-01,3507786.850000,True
+SYN-C000556,Fictional Spend Business 0556,Wholesale,Medium,28,Region 4,SYN-RM016,2019-01-01,3331389.520000,True
+SYN-C000557,Fictional Case Business 0557,Manufacturing,Small,11,Region 1,SYN-RM017,2019-01-01,503511.330000,True
+SYN-C000558,Fictional Public Business 0558,Retail,Medium,6,Region 2,SYN-RM018,2022-01-01,4796289.770000,True
+SYN-C000559,Fictional Everybody Business 0559,Manufacturing,Medium,30,Region 3,SYN-RM019,2021-01-01,3228941.770000,True
+SYN-C000560,Fictional Color Business 0560,Wholesale,Small,23,Region 4,SYN-RM020,2018-01-01,319653.320000,True
+SYN-C000561,Fictional Site Business 0561,Wholesale,Medium,29,Region 1,SYN-RM001,2020-01-01,2491191.110000,True
+SYN-C000562,Fictional Letter Business 0562,Manufacturing,Medium,9,Region 2,SYN-RM002,2023-01-01,1937036.620000,True
+SYN-C000563,Fictional Ok Business 0563,Professional Services,Small,25,Region 3,SYN-RM003,2020-01-01,150000.000000,True
+SYN-C000564,Fictional Season Business 0564,Professional Services,Medium,11,Region 4,SYN-RM004,2020-01-01,1256174.470000,True
+SYN-C000565,Fictional Late Business 0565,Construction,Medium,15,Region 1,SYN-RM005,2022-01-01,4810539.910000,True
+SYN-C000566,Fictional Option Business 0566,Retail,Medium,26,Region 2,SYN-RM006,2020-01-01,2021966.060000,True
+SYN-C000567,Fictional Act Business 0567,Construction,Large,33,Region 3,SYN-RM007,2018-01-01,5977565.600000,True
+SYN-C000568,Fictional Brother Business 0568,Retail,Medium,31,Region 4,SYN-RM008,2019-01-01,2278668.560000,True
+SYN-C000569,Fictional Bag Business 0569,Construction,Medium,35,Region 1,SYN-RM009,2020-01-01,2603897.250000,True
+SYN-C000570,Fictional You Business 0570,Manufacturing,Medium,31,Region 2,SYN-RM010,2023-01-01,2537701.190000,True
+SYN-C000571,Fictional Use Business 0571,Retail,Medium,10,Region 3,SYN-RM011,2020-01-01,1079722.330000,True
+SYN-C000572,Fictional Rock Business 0572,Retail,Small,7,Region 4,SYN-RM012,2019-01-01,920734.650000,True
+SYN-C000573,Fictional Well Business 0573,Retail,Medium,21,Region 1,SYN-RM013,2019-01-01,1873111.500000,True
+SYN-C000574,Fictional Church Business 0574,Manufacturing,Medium,29,Region 2,SYN-RM014,2019-01-01,1456643.020000,True
+SYN-C000575,Fictional Offer Business 0575,Manufacturing,Large,29,Region 3,SYN-RM015,2021-01-01,12215854.920000,True
+SYN-C000576,Fictional Also Business 0576,Wholesale,Medium,6,Region 4,SYN-RM016,2020-01-01,4866523.880000,True
+SYN-C000577,Fictional They Business 0577,Retail,Large,5,Region 1,SYN-RM017,2020-01-01,12210538.280000,True
+SYN-C000578,Fictional Hope Business 0578,Professional Services,Medium,30,Region 2,SYN-RM018,2020-01-01,3695336.050000,True
+SYN-C000579,Fictional Pass Business 0579,Construction,Medium,28,Region 3,SYN-RM019,2020-01-01,1203881.660000,True
+SYN-C000580,Fictional Old Business 0580,Construction,Large,8,Region 4,SYN-RM020,2021-01-01,5560101.720000,True
+SYN-C000581,Fictional Choose Business 0581,Construction,Medium,24,Region 1,SYN-RM001,2022-01-01,3214574.980000,True
+SYN-C000582,Fictional Law Business 0582,Construction,Medium,32,Region 2,SYN-RM002,2019-01-01,2735778.380000,True
+SYN-C000583,Fictional Care Business 0583,Hospitality,Small,33,Region 3,SYN-RM003,2022-01-01,607714.390000,True
+SYN-C000584,Fictional Analysis Business 0584,Retail,Small,20,Region 4,SYN-RM004,2021-01-01,310615.130000,True
+SYN-C000585,Fictional Foot Business 0585,Retail,Small,19,Region 1,SYN-RM005,2019-01-01,967056.000000,True
+SYN-C000586,Fictional His Business 0586,Wholesale,Small,19,Region 2,SYN-RM006,2020-01-01,449121.350000,True
+SYN-C000587,Fictional Way Business 0587,Wholesale,Medium,16,Region 3,SYN-RM007,2022-01-01,2068971.320000,True
+SYN-C000588,Fictional Worker Business 0588,Manufacturing,Large,26,Region 4,SYN-RM008,2021-01-01,5761856.030000,True
+SYN-C000589,Fictional Style Business 0589,Manufacturing,Large,3,Region 1,SYN-RM009,2018-01-01,13382933.080000,True
+SYN-C000590,Fictional Traditional Business 0590,Professional Services,Medium,11,Region 2,SYN-RM010,2020-01-01,1097738.440000,True
+SYN-C000591,Fictional Among Business 0591,Hospitality,Medium,4,Region 3,SYN-RM011,2022-01-01,2384269.480000,True
+SYN-C000592,Fictional Way Business 0592,Manufacturing,Medium,32,Region 4,SYN-RM012,2020-01-01,1009048.190000,True
+SYN-C000593,Fictional Help Business 0593,Professional Services,Large,23,Region 1,SYN-RM013,2022-01-01,13054058.480000,True
+SYN-C000594,Fictional Develop Business 0594,Manufacturing,Large,16,Region 2,SYN-RM014,2021-01-01,8008807.840000,True
+SYN-C000595,Fictional Rest Business 0595,Hospitality,Small,24,Region 3,SYN-RM015,2022-01-01,737941.260000,True
+SYN-C000596,Fictional Enjoy Business 0596,Professional Services,Medium,23,Region 4,SYN-RM016,2022-01-01,2273249.030000,True
+SYN-C000597,Fictional Reflect Business 0597,Professional Services,Small,19,Region 1,SYN-RM017,2020-01-01,432754.700000,True
+SYN-C000598,Fictional Board Business 0598,Professional Services,Small,22,Region 2,SYN-RM018,2022-01-01,378594.280000,True
+SYN-C000599,Fictional Health Business 0599,Professional Services,Medium,6,Region 3,SYN-RM019,2020-01-01,4277125.480000,True
+SYN-C000600,Fictional State Business 0600,Manufacturing,Small,9,Region 4,SYN-RM020,2023-01-01,171545.870000,True
+SYN-C000601,Fictional Opportunity Business 0601,Hospitality,Large,11,Region 1,SYN-RM001,2018-01-01,10758415.170000,True
+SYN-C000602,Fictional Usually Business 0602,Wholesale,Medium,11,Region 2,SYN-RM002,2019-01-01,1013435.170000,True
+SYN-C000603,Fictional Two Business 0603,Professional Services,Medium,11,Region 3,SYN-RM003,2019-01-01,2508379.340000,True
+SYN-C000604,Fictional Investment Business 0604,Wholesale,Medium,7,Region 4,SYN-RM004,2022-01-01,2009600.210000,True
+SYN-C000605,Fictional Pressure Business 0605,Wholesale,Medium,7,Region 1,SYN-RM005,2022-01-01,3382601.510000,True
+SYN-C000606,Fictional So Business 0606,Professional Services,Medium,15,Region 2,SYN-RM006,2019-01-01,2006594.520000,True
+SYN-C000607,Fictional Clear Business 0607,Construction,Medium,12,Region 3,SYN-RM007,2022-01-01,1437547.350000,True
+SYN-C000608,Fictional Wish Business 0608,Manufacturing,Small,7,Region 4,SYN-RM008,2018-01-01,530663.690000,True
+SYN-C000609,Fictional Wonder Business 0609,Professional Services,Medium,18,Region 1,SYN-RM009,2021-01-01,1996003.700000,True
+SYN-C000610,Fictional Economic Business 0610,Hospitality,Medium,9,Region 2,SYN-RM010,2020-01-01,2888876.330000,True
+SYN-C000611,Fictional Treatment Business 0611,Professional Services,Small,29,Region 3,SYN-RM011,2020-01-01,811489.530000,True
+SYN-C000612,Fictional Commercial Business 0612,Professional Services,Medium,9,Region 4,SYN-RM012,2020-01-01,2010261.660000,True
+SYN-C000613,Fictional Such Business 0613,Professional Services,Small,15,Region 1,SYN-RM013,2023-01-01,198425.160000,True
+SYN-C000614,Fictional Talk Business 0614,Hospitality,Large,8,Region 2,SYN-RM014,2019-01-01,9797506.460000,True
+SYN-C000615,Fictional Cost Business 0615,Professional Services,Medium,6,Region 3,SYN-RM015,2022-01-01,2472454.550000,True
+SYN-C000616,Fictional Upon Business 0616,Construction,Small,32,Region 4,SYN-RM016,2019-01-01,220225.350000,True
+SYN-C000617,Fictional Itself Business 0617,Manufacturing,Small,27,Region 1,SYN-RM017,2020-01-01,744797.220000,True
+SYN-C000618,Fictional Ago Business 0618,Professional Services,Medium,2,Region 2,SYN-RM018,2023-01-01,1088797.390000,True
+SYN-C000619,Fictional Country Business 0619,Manufacturing,Small,35,Region 3,SYN-RM019,2020-01-01,150000.000000,True
+SYN-C000620,Fictional Since Business 0620,Wholesale,Medium,19,Region 4,SYN-RM020,2022-01-01,1228169.100000,True
+SYN-C000621,Fictional Window Business 0621,Professional Services,Medium,17,Region 1,SYN-RM001,2022-01-01,4586344.430000,True
+SYN-C000622,Fictional Go Business 0622,Retail,Small,17,Region 2,SYN-RM002,2020-01-01,193308.190000,True
+SYN-C000623,Fictional Stay Business 0623,Professional Services,Medium,15,Region 3,SYN-RM003,2022-01-01,1970744.590000,True
+SYN-C000624,Fictional Word Business 0624,Manufacturing,Small,35,Region 4,SYN-RM004,2018-01-01,485732.480000,True
+SYN-C000625,Fictional Its Business 0625,Hospitality,Medium,9,Region 1,SYN-RM005,2018-01-01,2992925.160000,True
+SYN-C000626,Fictional Suffer Business 0626,Wholesale,Small,24,Region 2,SYN-RM006,2023-01-01,606978.440000,True
+SYN-C000627,Fictional Relationship Business 0627,Retail,Medium,32,Region 3,SYN-RM007,2018-01-01,3262246.010000,True
+SYN-C000628,Fictional Treat Business 0628,Professional Services,Medium,29,Region 4,SYN-RM008,2021-01-01,1329468.440000,True
+SYN-C000629,Fictional Simple Business 0629,Manufacturing,Small,33,Region 1,SYN-RM009,2023-01-01,270573.430000,True
+SYN-C000630,Fictional Talk Business 0630,Manufacturing,Medium,9,Region 2,SYN-RM010,2019-01-01,2479660.320000,True
+SYN-C000631,Fictional Energy Business 0631,Construction,Small,8,Region 3,SYN-RM011,2021-01-01,738129.530000,True
+SYN-C000632,Fictional Example Business 0632,Wholesale,Medium,4,Region 4,SYN-RM012,2023-01-01,1037997.450000,True
+SYN-C000633,Fictional Collection Business 0633,Retail,Small,25,Region 1,SYN-RM013,2022-01-01,735142.800000,True
+SYN-C000634,Fictional Store Business 0634,Construction,Medium,35,Region 2,SYN-RM014,2019-01-01,3168171.750000,True
+SYN-C000635,Fictional Science Business 0635,Wholesale,Medium,33,Region 3,SYN-RM015,2019-01-01,1677689.480000,True
+SYN-C000636,Fictional Box Business 0636,Hospitality,Small,16,Region 4,SYN-RM016,2019-01-01,494108.060000,True
+SYN-C000637,Fictional Idea Business 0637,Wholesale,Small,11,Region 1,SYN-RM017,2021-01-01,486357.820000,True
+SYN-C000638,Fictional Turn Business 0638,Construction,Medium,35,Region 2,SYN-RM018,2020-01-01,2937971.370000,True
+SYN-C000639,Fictional American Business 0639,Hospitality,Medium,10,Region 3,SYN-RM019,2021-01-01,1191902.100000,True
+SYN-C000640,Fictional Town Business 0640,Hospitality,Medium,27,Region 4,SYN-RM020,2023-01-01,1450919.670000,True
+SYN-C000641,Fictional Many Business 0641,Wholesale,Medium,9,Region 1,SYN-RM001,2021-01-01,1510501.690000,True
+SYN-C000642,Fictional Doctor Business 0642,Manufacturing,Small,32,Region 2,SYN-RM002,2018-01-01,179247.350000,True
+SYN-C000643,Fictional Decision Business 0643,Construction,Medium,9,Region 3,SYN-RM003,2022-01-01,1270124.410000,True
+SYN-C000644,Fictional Technology Business 0644,Hospitality,Small,6,Region 4,SYN-RM004,2020-01-01,753198.720000,True
+SYN-C000645,Fictional Why Business 0645,Professional Services,Small,27,Region 1,SYN-RM005,2019-01-01,158399.220000,True
+SYN-C000646,Fictional Magazine Business 0646,Construction,Small,21,Region 2,SYN-RM006,2020-01-01,576225.770000,True
+SYN-C000647,Fictional Hard Business 0647,Professional Services,Small,18,Region 3,SYN-RM007,2021-01-01,384819.160000,True
+SYN-C000648,Fictional Focus Business 0648,Manufacturing,Small,6,Region 4,SYN-RM008,2023-01-01,734467.970000,True
+SYN-C000649,Fictional Tend Business 0649,Retail,Medium,16,Region 1,SYN-RM009,2019-01-01,1992313.660000,True
+SYN-C000650,Fictional Stuff Business 0650,Wholesale,Large,35,Region 2,SYN-RM010,2022-01-01,6575622.410000,True
+SYN-C000651,Fictional Try Business 0651,Retail,Medium,27,Region 3,SYN-RM011,2020-01-01,4308305.930000,True
+SYN-C000652,Fictional Drive Business 0652,Professional Services,Small,7,Region 4,SYN-RM012,2019-01-01,380531.610000,True
+SYN-C000653,Fictional Dog Business 0653,Professional Services,Medium,17,Region 1,SYN-RM013,2019-01-01,2380152.570000,True
+SYN-C000654,Fictional Agent Business 0654,Hospitality,Medium,20,Region 2,SYN-RM014,2022-01-01,1194453.770000,True
+SYN-C000655,Fictional Receive Business 0655,Manufacturing,Medium,11,Region 3,SYN-RM015,2018-01-01,1155732.130000,True
+SYN-C000656,Fictional Data Business 0656,Construction,Medium,2,Region 4,SYN-RM016,2023-01-01,1582741.090000,True
+SYN-C000657,Fictional Inside Business 0657,Manufacturing,Large,15,Region 1,SYN-RM017,2020-01-01,23406689.510000,True
+SYN-C000658,Fictional Get Business 0658,Wholesale,Medium,10,Region 2,SYN-RM018,2018-01-01,1998309.030000,True
+SYN-C000659,Fictional Family Business 0659,Retail,Medium,7,Region 3,SYN-RM019,2020-01-01,1535289.620000,True
+SYN-C000660,Fictional Treatment Business 0660,Hospitality,Medium,15,Region 4,SYN-RM020,2023-01-01,4487163.160000,True
+SYN-C000661,Fictional Available Business 0661,Manufacturing,Small,30,Region 1,SYN-RM001,2018-01-01,158406.060000,True
+SYN-C000662,Fictional Spring Business 0662,Construction,Medium,31,Region 2,SYN-RM002,2023-01-01,2097609.760000,True
+SYN-C000663,Fictional Family Business 0663,Manufacturing,Small,12,Region 3,SYN-RM003,2021-01-01,667148.950000,True
+SYN-C000664,Fictional Have Business 0664,Hospitality,Medium,6,Region 4,SYN-RM004,2022-01-01,1445280.540000,True
+SYN-C000665,Fictional Put Business 0665,Retail,Small,33,Region 1,SYN-RM005,2023-01-01,274591.740000,True
+SYN-C000666,Fictional Mr Business 0666,Professional Services,Medium,8,Region 2,SYN-RM006,2021-01-01,1480466.520000,True
+SYN-C000667,Fictional Instead Business 0667,Wholesale,Medium,27,Region 3,SYN-RM007,2018-01-01,2368805.160000,True
+SYN-C000668,Fictional Respond Business 0668,Hospitality,Small,16,Region 4,SYN-RM008,2018-01-01,948068.230000,True
+SYN-C000669,Fictional Threat Business 0669,Wholesale,Medium,10,Region 1,SYN-RM009,2022-01-01,1545387.150000,True
+SYN-C000670,Fictional Not Business 0670,Manufacturing,Medium,31,Region 2,SYN-RM010,2020-01-01,4461792.910000,True
+SYN-C000671,Fictional Glass Business 0671,Hospitality,Small,28,Region 3,SYN-RM011,2022-01-01,907752.860000,True
+SYN-C000672,Fictional Wrong Business 0672,Construction,Medium,11,Region 4,SYN-RM012,2022-01-01,2444820.150000,True
+SYN-C000673,Fictional Ahead Business 0673,Construction,Small,19,Region 1,SYN-RM013,2020-01-01,331433.270000,True
+SYN-C000674,Fictional Business Business 0674,Hospitality,Small,2,Region 2,SYN-RM014,2022-01-01,276005.230000,True
+SYN-C000675,Fictional Understand Business 0675,Hospitality,Large,33,Region 3,SYN-RM015,2020-01-01,14183703.310000,True
+SYN-C000676,Fictional Every Business 0676,Professional Services,Medium,24,Region 4,SYN-RM016,2020-01-01,1332371.520000,True
+SYN-C000677,Fictional Could Business 0677,Retail,Small,35,Region 1,SYN-RM017,2021-01-01,758121.200000,True
+SYN-C000678,Fictional Partner Business 0678,Professional Services,Medium,5,Region 2,SYN-RM018,2019-01-01,1471656.780000,True
+SYN-C000679,Fictional Evidence Business 0679,Manufacturing,Medium,28,Region 3,SYN-RM019,2021-01-01,1349366.280000,True
+SYN-C000680,Fictional American Business 0680,Wholesale,Medium,28,Region 4,SYN-RM020,2019-01-01,1670055.270000,True
+SYN-C000681,Fictional Boy Business 0681,Construction,Small,28,Region 1,SYN-RM001,2019-01-01,316697.280000,True
+SYN-C000682,Fictional Pick Business 0682,Manufacturing,Medium,33,Region 2,SYN-RM002,2022-01-01,2076716.890000,True
+SYN-C000683,Fictional Leader Business 0683,Wholesale,Small,2,Region 3,SYN-RM003,2023-01-01,353049.680000,True
+SYN-C000684,Fictional Hair Business 0684,Hospitality,Small,22,Region 4,SYN-RM004,2020-01-01,881234.660000,True
+SYN-C000685,Fictional Shoulder Business 0685,Professional Services,Medium,3,Region 1,SYN-RM005,2022-01-01,2698490.160000,True
+SYN-C000686,Fictional Stop Business 0686,Wholesale,Medium,30,Region 2,SYN-RM006,2020-01-01,1859001.700000,True
+SYN-C000687,Fictional Former Business 0687,Professional Services,Small,34,Region 3,SYN-RM007,2020-01-01,883749.760000,True
+SYN-C000688,Fictional Least Business 0688,Hospitality,Medium,19,Region 4,SYN-RM008,2023-01-01,1267443.630000,True
+SYN-C000689,Fictional Police Business 0689,Construction,Medium,27,Region 1,SYN-RM009,2019-01-01,1740188.390000,True
+SYN-C000690,Fictional Much Business 0690,Construction,Medium,15,Region 2,SYN-RM010,2022-01-01,2168836.520000,True
+SYN-C000691,Fictional Business Business 0691,Hospitality,Small,10,Region 3,SYN-RM011,2020-01-01,281861.510000,True
+SYN-C000692,Fictional Image Business 0692,Retail,Small,17,Region 4,SYN-RM012,2022-01-01,503049.890000,True
+SYN-C000693,Fictional We Business 0693,Retail,Small,23,Region 1,SYN-RM013,2023-01-01,161279.990000,True
+SYN-C000694,Fictional Part Business 0694,Manufacturing,Large,6,Region 2,SYN-RM014,2020-01-01,8955353.690000,True
+SYN-C000695,Fictional Customer Business 0695,Retail,Medium,23,Region 3,SYN-RM015,2018-01-01,3889050.540000,True
+SYN-C000696,Fictional Environmental Business 0696,Wholesale,Small,3,Region 4,SYN-RM016,2020-01-01,845841.970000,True
+SYN-C000697,Fictional Another Business 0697,Wholesale,Medium,21,Region 1,SYN-RM017,2019-01-01,1319139.270000,True
+SYN-C000698,Fictional Section Business 0698,Wholesale,Medium,25,Region 2,SYN-RM018,2023-01-01,1656581.790000,True
+SYN-C000699,Fictional Least Business 0699,Hospitality,Medium,13,Region 3,SYN-RM019,2019-01-01,2612913.910000,True
+SYN-C000700,Fictional Ability Business 0700,Construction,Medium,8,Region 4,SYN-RM020,2018-01-01,3972672.190000,True
+SYN-C000701,Fictional Nature Business 0701,Professional Services,Large,4,Region 1,SYN-RM001,2018-01-01,9127467.980000,True
+SYN-C000702,Fictional Wish Business 0702,Retail,Medium,19,Region 2,SYN-RM002,2022-01-01,1611577.050000,True
+SYN-C000703,Fictional Sure Business 0703,Hospitality,Medium,21,Region 3,SYN-RM003,2018-01-01,1574757.030000,True
+SYN-C000704,Fictional Nothing Business 0704,Manufacturing,Medium,12,Region 4,SYN-RM004,2021-01-01,1347380.130000,True
+SYN-C000705,Fictional Right Business 0705,Professional Services,Small,19,Region 1,SYN-RM005,2020-01-01,373293.480000,True
+SYN-C000706,Fictional Serve Business 0706,Professional Services,Medium,7,Region 2,SYN-RM006,2020-01-01,3502168.310000,True
+SYN-C000707,Fictional Yard Business 0707,Retail,Small,7,Region 3,SYN-RM007,2022-01-01,674167.430000,True
+SYN-C000708,Fictional Site Business 0708,Construction,Medium,27,Region 4,SYN-RM008,2019-01-01,1015405.380000,True
+SYN-C000709,Fictional Since Business 0709,Hospitality,Small,30,Region 1,SYN-RM009,2023-01-01,422433.360000,True
+SYN-C000710,Fictional Religious Business 0710,Hospitality,Small,31,Region 2,SYN-RM010,2018-01-01,703681.230000,True
+SYN-C000711,Fictional Debate Business 0711,Wholesale,Small,28,Region 3,SYN-RM011,2022-01-01,920654.350000,True
+SYN-C000712,Fictional Himself Business 0712,Construction,Small,24,Region 4,SYN-RM012,2023-01-01,703776.030000,True
+SYN-C000713,Fictional Lawyer Business 0713,Retail,Small,12,Region 1,SYN-RM013,2019-01-01,858243.540000,True
+SYN-C000714,Fictional Available Business 0714,Construction,Medium,11,Region 2,SYN-RM014,2021-01-01,2669379.160000,True
+SYN-C000715,Fictional Red Business 0715,Professional Services,Small,22,Region 3,SYN-RM015,2023-01-01,551732.620000,True
+SYN-C000716,Fictional Wife Business 0716,Retail,Small,22,Region 4,SYN-RM016,2022-01-01,480513.070000,True
+SYN-C000717,Fictional Give Business 0717,Manufacturing,Small,25,Region 1,SYN-RM017,2022-01-01,538047.900000,True
+SYN-C000718,Fictional Price Business 0718,Professional Services,Medium,16,Region 2,SYN-RM018,2018-01-01,1280715.980000,True
+SYN-C000719,Fictional Former Business 0719,Wholesale,Small,9,Region 3,SYN-RM019,2022-01-01,614235.780000,True
+SYN-C000720,Fictional Record Business 0720,Hospitality,Small,3,Region 4,SYN-RM020,2022-01-01,956642.250000,True
+SYN-C000721,Fictional Thus Business 0721,Wholesale,Large,18,Region 1,SYN-RM001,2018-01-01,7428148.330000,True
+SYN-C000722,Fictional Capital Business 0722,Manufacturing,Medium,33,Region 2,SYN-RM002,2020-01-01,1947525.360000,True
+SYN-C000723,Fictional Service Business 0723,Wholesale,Small,19,Region 3,SYN-RM003,2023-01-01,506176.400000,True
+SYN-C000724,Fictional We Business 0724,Hospitality,Medium,15,Region 4,SYN-RM004,2021-01-01,3168392.740000,True
+SYN-C000725,Fictional First Business 0725,Hospitality,Small,18,Region 1,SYN-RM005,2020-01-01,577090.750000,True
+SYN-C000726,Fictional Movement Business 0726,Professional Services,Medium,34,Region 2,SYN-RM006,2023-01-01,4649357.090000,True
+SYN-C000727,Fictional For Business 0727,Manufacturing,Medium,17,Region 3,SYN-RM007,2020-01-01,1956122.370000,True
+SYN-C000728,Fictional Reflect Business 0728,Construction,Small,21,Region 4,SYN-RM008,2018-01-01,303938.670000,True
+SYN-C000729,Fictional Issue Business 0729,Manufacturing,Medium,16,Region 1,SYN-RM009,2021-01-01,1103804.760000,True
+SYN-C000730,Fictional General Business 0730,Hospitality,Medium,9,Region 2,SYN-RM010,2021-01-01,1077966.330000,True
+SYN-C000731,Fictional Interesting Business 0731,Wholesale,Small,7,Region 3,SYN-RM011,2023-01-01,860012.450000,True
+SYN-C000732,Fictional Same Business 0732,Construction,Medium,8,Region 4,SYN-RM012,2019-01-01,1414489.200000,True
+SYN-C000733,Fictional Find Business 0733,Professional Services,Small,23,Region 1,SYN-RM013,2019-01-01,995333.880000,True
+SYN-C000734,Fictional Once Business 0734,Hospitality,Small,10,Region 2,SYN-RM014,2023-01-01,236837.580000,True
+SYN-C000735,Fictional Care Business 0735,Wholesale,Medium,19,Region 3,SYN-RM015,2020-01-01,1525310.950000,True
+SYN-C000736,Fictional Dark Business 0736,Wholesale,Small,29,Region 4,SYN-RM016,2019-01-01,229767.970000,True
+SYN-C000737,Fictional Kitchen Business 0737,Hospitality,Medium,11,Region 1,SYN-RM017,2022-01-01,1458966.680000,True
+SYN-C000738,Fictional Red Business 0738,Construction,Small,27,Region 2,SYN-RM018,2023-01-01,946928.890000,True
+SYN-C000739,Fictional Yard Business 0739,Retail,Medium,35,Region 3,SYN-RM019,2020-01-01,2326285.110000,True
+SYN-C000740,Fictional Hundred Business 0740,Manufacturing,Small,15,Region 4,SYN-RM020,2023-01-01,198331.490000,True
+SYN-C000741,Fictional Research Business 0741,Construction,Medium,8,Region 1,SYN-RM001,2022-01-01,2709651.240000,True
+SYN-C000742,Fictional Smile Business 0742,Hospitality,Medium,33,Region 2,SYN-RM002,2020-01-01,2785964.450000,True
+SYN-C000743,Fictional Weight Business 0743,Construction,Small,35,Region 3,SYN-RM003,2023-01-01,639022.900000,True
+SYN-C000744,Fictional Contain Business 0744,Wholesale,Medium,34,Region 4,SYN-RM004,2019-01-01,2987383.410000,True
+SYN-C000745,Fictional Power Business 0745,Retail,Medium,12,Region 1,SYN-RM005,2018-01-01,2177930.060000,True
+SYN-C000746,Fictional Outside Business 0746,Manufacturing,Medium,21,Region 2,SYN-RM006,2021-01-01,1596883.940000,True
+SYN-C000747,Fictional Fish Business 0747,Professional Services,Large,15,Region 3,SYN-RM007,2022-01-01,5982595.060000,True
+SYN-C000748,Fictional Into Business 0748,Professional Services,Small,19,Region 4,SYN-RM008,2018-01-01,840746.340000,True
+SYN-C000749,Fictional Official Business 0749,Professional Services,Small,8,Region 1,SYN-RM009,2023-01-01,354156.960000,True
+SYN-C000750,Fictional These Business 0750,Professional Services,Small,5,Region 2,SYN-RM010,2022-01-01,211961.070000,True
+SYN-C000751,Fictional A Business 0751,Wholesale,Medium,20,Region 3,SYN-RM011,2023-01-01,1019351.700000,True
+SYN-C000752,Fictional Fly Business 0752,Construction,Small,10,Region 4,SYN-RM012,2021-01-01,798535.270000,True
+SYN-C000753,Fictional Few Business 0753,Wholesale,Medium,11,Region 1,SYN-RM013,2018-01-01,2781521.390000,True
+SYN-C000754,Fictional Develop Business 0754,Retail,Small,29,Region 2,SYN-RM014,2018-01-01,761208.810000,True
+SYN-C000755,Fictional Law Business 0755,Retail,Medium,30,Region 3,SYN-RM015,2021-01-01,2134425.380000,True
+SYN-C000756,Fictional Stock Business 0756,Manufacturing,Medium,24,Region 4,SYN-RM016,2020-01-01,2738270.730000,True
+SYN-C000757,Fictional Particularly Business 0757,Professional Services,Medium,4,Region 1,SYN-RM017,2021-01-01,3886011.610000,True
+SYN-C000758,Fictional Policy Business 0758,Wholesale,Medium,20,Region 2,SYN-RM018,2019-01-01,1705503.960000,True
+SYN-C000759,Fictional Real Business 0759,Manufacturing,Medium,32,Region 3,SYN-RM019,2022-01-01,1032775.850000,True
+SYN-C000760,Fictional Fund Business 0760,Retail,Medium,29,Region 4,SYN-RM020,2021-01-01,3362978.670000,True
+SYN-C000761,Fictional Make Business 0761,Retail,Small,26,Region 1,SYN-RM001,2023-01-01,472292.040000,True
+SYN-C000762,Fictional Letter Business 0762,Wholesale,Small,21,Region 2,SYN-RM002,2019-01-01,258596.560000,True
+SYN-C000763,Fictional Letter Business 0763,Wholesale,Large,18,Region 3,SYN-RM003,2022-01-01,5689099.290000,True
+SYN-C000764,Fictional Republican Business 0764,Construction,Medium,5,Region 4,SYN-RM004,2020-01-01,2924435.240000,True
+SYN-C000765,Fictional Different Business 0765,Professional Services,Medium,26,Region 1,SYN-RM005,2019-01-01,1617472.100000,True
+SYN-C000766,Fictional Much Business 0766,Professional Services,Medium,10,Region 2,SYN-RM006,2021-01-01,1892481.260000,True
+SYN-C000767,Fictional Material Business 0767,Manufacturing,Small,28,Region 3,SYN-RM007,2019-01-01,333319.650000,True
+SYN-C000768,Fictional Student Business 0768,Hospitality,Medium,31,Region 4,SYN-RM008,2020-01-01,3887539.680000,True
+SYN-C000769,Fictional Wear Business 0769,Manufacturing,Small,22,Region 1,SYN-RM009,2019-01-01,189430.620000,True
+SYN-C000770,Fictional Style Business 0770,Retail,Small,21,Region 2,SYN-RM010,2020-01-01,845332.870000,True
+SYN-C000771,Fictional Simply Business 0771,Retail,Small,16,Region 3,SYN-RM011,2018-01-01,957928.230000,True
+SYN-C000772,Fictional Condition Business 0772,Hospitality,Small,16,Region 4,SYN-RM012,2019-01-01,867313.880000,True
+SYN-C000773,Fictional Reason Business 0773,Manufacturing,Medium,33,Region 1,SYN-RM013,2019-01-01,1298181.820000,True
+SYN-C000774,Fictional Become Business 0774,Wholesale,Small,19,Region 2,SYN-RM014,2018-01-01,487542.940000,True
+SYN-C000775,Fictional Federal Business 0775,Wholesale,Small,27,Region 3,SYN-RM015,2019-01-01,940018.950000,True
+SYN-C000776,Fictional Myself Business 0776,Wholesale,Small,8,Region 4,SYN-RM016,2021-01-01,699826.840000,True
+SYN-C000777,Fictional Record Business 0777,Hospitality,Small,4,Region 1,SYN-RM017,2018-01-01,150000.000000,True
+SYN-C000778,Fictional Property Business 0778,Manufacturing,Small,18,Region 2,SYN-RM018,2020-01-01,150000.000000,True
+SYN-C000779,Fictional President Business 0779,Manufacturing,Medium,21,Region 3,SYN-RM019,2021-01-01,1086614.670000,True
+SYN-C000780,Fictional Government Business 0780,Hospitality,Small,25,Region 4,SYN-RM020,2022-01-01,519670.270000,True
+SYN-C000781,Fictional Better Business 0781,Construction,Medium,30,Region 1,SYN-RM001,2022-01-01,4293194.040000,True
+SYN-C000782,Fictional Tell Business 0782,Manufacturing,Small,33,Region 2,SYN-RM002,2023-01-01,473176.830000,True
+SYN-C000783,Fictional Society Business 0783,Retail,Medium,26,Region 3,SYN-RM003,2023-01-01,3344788.230000,True
+SYN-C000784,Fictional Easy Business 0784,Construction,Small,26,Region 4,SYN-RM004,2020-01-01,286873.580000,True
+SYN-C000785,Fictional Remember Business 0785,Manufacturing,Large,34,Region 1,SYN-RM005,2018-01-01,5019467.800000,True
+SYN-C000786,Fictional Force Business 0786,Construction,Large,24,Region 2,SYN-RM006,2020-01-01,6743014.580000,True
+SYN-C000787,Fictional Down Business 0787,Construction,Small,30,Region 3,SYN-RM007,2021-01-01,771883.970000,True
+SYN-C000788,Fictional Sure Business 0788,Manufacturing,Small,6,Region 4,SYN-RM008,2019-01-01,437622.750000,True
+SYN-C000789,Fictional Decide Business 0789,Retail,Small,25,Region 1,SYN-RM009,2021-01-01,185100.110000,True
+SYN-C000790,Fictional Choice Business 0790,Retail,Small,24,Region 2,SYN-RM010,2022-01-01,264947.400000,True
+SYN-C000791,Fictional Ago Business 0791,Wholesale,Small,13,Region 3,SYN-RM011,2020-01-01,642000.740000,True
+SYN-C000792,Fictional Any Business 0792,Professional Services,Medium,6,Region 4,SYN-RM012,2019-01-01,1549729.550000,True
+SYN-C000793,Fictional Election Business 0793,Manufacturing,Small,13,Region 1,SYN-RM013,2022-01-01,789168.410000,True
+SYN-C000794,Fictional May Business 0794,Manufacturing,Small,3,Region 2,SYN-RM014,2020-01-01,554985.650000,True
+SYN-C000795,Fictional Popular Business 0795,Hospitality,Medium,34,Region 3,SYN-RM015,2019-01-01,1119006.920000,True
+SYN-C000796,Fictional To Business 0796,Retail,Medium,25,Region 4,SYN-RM016,2020-01-01,1717026.590000,True
+SYN-C000797,Fictional Special Business 0797,Construction,Medium,6,Region 1,SYN-RM017,2019-01-01,1173705.520000,True
+SYN-C000798,Fictional Baby Business 0798,Hospitality,Medium,20,Region 2,SYN-RM018,2019-01-01,2328742.950000,True
+SYN-C000799,Fictional Lose Business 0799,Professional Services,Small,6,Region 3,SYN-RM019,2022-01-01,975850.410000,True
+SYN-C000800,Fictional Join Business 0800,Professional Services,Medium,11,Region 4,SYN-RM020,2019-01-01,1174035.440000,True
+SYN-C000801,Fictional Various Business 0801,Professional Services,Large,3,Region 1,SYN-RM001,2019-01-01,7361375.400000,True
+SYN-C000802,Fictional Professional Business 0802,Professional Services,Medium,27,Region 2,SYN-RM002,2018-01-01,3052172.070000,True
+SYN-C000803,Fictional Parent Business 0803,Professional Services,Large,2,Region 3,SYN-RM003,2020-01-01,6558868.660000,True
+SYN-C000804,Fictional Day Business 0804,Professional Services,Medium,28,Region 4,SYN-RM004,2022-01-01,1727341.060000,True
+SYN-C000805,Fictional Serious Business 0805,Retail,Medium,14,Region 1,SYN-RM005,2019-01-01,1156073.980000,True
+SYN-C000806,Fictional Same Business 0806,Manufacturing,Medium,23,Region 2,SYN-RM006,2021-01-01,1115282.360000,True
+SYN-C000807,Fictional If Business 0807,Hospitality,Small,13,Region 3,SYN-RM007,2022-01-01,682851.210000,True
+SYN-C000808,Fictional Miss Business 0808,Retail,Medium,30,Region 4,SYN-RM008,2023-01-01,2129054.990000,True
+SYN-C000809,Fictional Instead Business 0809,Construction,Medium,2,Region 1,SYN-RM009,2019-01-01,3674442.460000,True
+SYN-C000810,Fictional Either Business 0810,Hospitality,Medium,28,Region 2,SYN-RM010,2022-01-01,2131657.470000,True
+SYN-C000811,Fictional Choose Business 0811,Manufacturing,Small,23,Region 3,SYN-RM011,2023-01-01,887105.560000,True
+SYN-C000812,Fictional Reality Business 0812,Wholesale,Small,14,Region 4,SYN-RM012,2020-01-01,956127.520000,True
+SYN-C000813,Fictional Rise Business 0813,Wholesale,Medium,20,Region 1,SYN-RM013,2022-01-01,1865914.230000,True
+SYN-C000814,Fictional Accept Business 0814,Professional Services,Medium,8,Region 2,SYN-RM014,2018-01-01,4267523.930000,True
+SYN-C000815,Fictional Walk Business 0815,Retail,Medium,17,Region 3,SYN-RM015,2021-01-01,4544121.190000,True
+SYN-C000816,Fictional Social Business 0816,Construction,Small,7,Region 4,SYN-RM016,2023-01-01,441832.050000,True
+SYN-C000817,Fictional Traditional Business 0817,Construction,Medium,18,Region 1,SYN-RM017,2022-01-01,1454705.000000,True
+SYN-C000818,Fictional Speech Business 0818,Wholesale,Medium,28,Region 2,SYN-RM018,2021-01-01,1708852.920000,True
+SYN-C000819,Fictional Value Business 0819,Retail,Medium,5,Region 3,SYN-RM019,2018-01-01,2552944.400000,True
+SYN-C000820,Fictional Both Business 0820,Wholesale,Medium,35,Region 4,SYN-RM020,2023-01-01,1489492.670000,True
+SYN-C000821,Fictional Start Business 0821,Wholesale,Medium,10,Region 1,SYN-RM001,2022-01-01,1374624.490000,True
+SYN-C000822,Fictional Large Business 0822,Wholesale,Small,6,Region 2,SYN-RM002,2019-01-01,362862.140000,True
+SYN-C000823,Fictional Discuss Business 0823,Professional Services,Medium,31,Region 3,SYN-RM003,2019-01-01,1785376.720000,True
+SYN-C000824,Fictional Control Business 0824,Manufacturing,Large,9,Region 4,SYN-RM004,2019-01-01,5090233.580000,True
+SYN-C000825,Fictional Summer Business 0825,Hospitality,Medium,12,Region 1,SYN-RM005,2020-01-01,1007448.900000,True
+SYN-C000826,Fictional Safe Business 0826,Professional Services,Medium,26,Region 2,SYN-RM006,2022-01-01,2957913.570000,True
+SYN-C000827,Fictional National Business 0827,Professional Services,Small,8,Region 3,SYN-RM007,2020-01-01,571481.290000,True
+SYN-C000828,Fictional Majority Business 0828,Construction,Medium,15,Region 4,SYN-RM008,2020-01-01,3528938.720000,True
+SYN-C000829,Fictional Apply Business 0829,Construction,Small,26,Region 1,SYN-RM009,2021-01-01,711216.850000,True
+SYN-C000830,Fictional Onto Business 0830,Professional Services,Small,3,Region 2,SYN-RM010,2021-01-01,571135.430000,True
+SYN-C000831,Fictional Enjoy Business 0831,Construction,Medium,9,Region 3,SYN-RM011,2020-01-01,1618716.040000,True
+SYN-C000832,Fictional Whose Business 0832,Professional Services,Medium,21,Region 4,SYN-RM012,2020-01-01,3043515.830000,True
+SYN-C000833,Fictional Thus Business 0833,Manufacturing,Large,6,Region 1,SYN-RM013,2022-01-01,22177005.060000,True
+SYN-C000834,Fictional Campaign Business 0834,Hospitality,Medium,12,Region 2,SYN-RM014,2022-01-01,1545868.060000,True
+SYN-C000835,Fictional Loss Business 0835,Wholesale,Small,33,Region 3,SYN-RM015,2018-01-01,263102.070000,True
+SYN-C000836,Fictional Cell Business 0836,Hospitality,Small,25,Region 4,SYN-RM016,2023-01-01,520086.030000,True
+SYN-C000837,Fictional Suddenly Business 0837,Professional Services,Medium,13,Region 1,SYN-RM017,2018-01-01,1903527.670000,True
+SYN-C000838,Fictional Majority Business 0838,Manufacturing,Medium,28,Region 2,SYN-RM018,2019-01-01,1095179.410000,True
+SYN-C000839,Fictional Region Business 0839,Professional Services,Medium,22,Region 3,SYN-RM019,2018-01-01,1424426.360000,True
+SYN-C000840,Fictional Nice Business 0840,Wholesale,Medium,10,Region 4,SYN-RM020,2018-01-01,1219310.290000,True
+SYN-C000841,Fictional Operation Business 0841,Wholesale,Small,5,Region 1,SYN-RM001,2020-01-01,224389.440000,True
+SYN-C000842,Fictional Physical Business 0842,Construction,Medium,11,Region 2,SYN-RM002,2019-01-01,1549854.880000,True
+SYN-C000843,Fictional Free Business 0843,Wholesale,Medium,14,Region 3,SYN-RM003,2023-01-01,1545819.790000,True
+SYN-C000844,Fictional Someone Business 0844,Professional Services,Small,13,Region 4,SYN-RM004,2018-01-01,615771.710000,True
+SYN-C000845,Fictional Vote Business 0845,Manufacturing,Small,2,Region 1,SYN-RM005,2019-01-01,490906.440000,True
+SYN-C000846,Fictional Level Business 0846,Hospitality,Medium,13,Region 2,SYN-RM006,2023-01-01,3879771.680000,True
+SYN-C000847,Fictional Position Business 0847,Retail,Small,19,Region 3,SYN-RM007,2023-01-01,941681.610000,True
+SYN-C000848,Fictional Teacher Business 0848,Construction,Medium,4,Region 4,SYN-RM008,2022-01-01,2290839.250000,True
+SYN-C000849,Fictional Serve Business 0849,Hospitality,Medium,30,Region 1,SYN-RM009,2019-01-01,1664907.500000,True
+SYN-C000850,Fictional Wait Business 0850,Professional Services,Medium,26,Region 2,SYN-RM010,2022-01-01,1606973.100000,True
+SYN-C000851,Fictional Mother Business 0851,Hospitality,Small,12,Region 3,SYN-RM011,2020-01-01,683990.770000,True
+SYN-C000852,Fictional Last Business 0852,Retail,Large,17,Region 4,SYN-RM012,2022-01-01,6364958.140000,True
+SYN-C000853,Fictional Then Business 0853,Retail,Small,5,Region 1,SYN-RM013,2018-01-01,745545.520000,True
+SYN-C000854,Fictional What Business 0854,Retail,Medium,27,Region 2,SYN-RM014,2022-01-01,1126140.670000,True
+SYN-C000855,Fictional Official Business 0855,Hospitality,Small,22,Region 3,SYN-RM015,2020-01-01,543115.460000,True
+SYN-C000856,Fictional Like Business 0856,Retail,Medium,35,Region 4,SYN-RM016,2020-01-01,1795541.400000,True
+SYN-C000857,Fictional Watch Business 0857,Wholesale,Medium,3,Region 1,SYN-RM017,2020-01-01,3490920.950000,True
+SYN-C000858,Fictional Cold Business 0858,Construction,Medium,30,Region 2,SYN-RM018,2020-01-01,2338253.270000,True
+SYN-C000859,Fictional Six Business 0859,Retail,Medium,31,Region 3,SYN-RM019,2023-01-01,1626852.090000,True
+SYN-C000860,Fictional Training Business 0860,Wholesale,Medium,27,Region 4,SYN-RM020,2019-01-01,3059961.270000,True
+SYN-C000861,Fictional May Business 0861,Hospitality,Small,19,Region 1,SYN-RM001,2020-01-01,681008.670000,True
+SYN-C000862,Fictional Listen Business 0862,Construction,Medium,3,Region 2,SYN-RM002,2018-01-01,1430283.310000,True
+SYN-C000863,Fictional Event Business 0863,Hospitality,Small,13,Region 3,SYN-RM003,2021-01-01,893066.080000,True
+SYN-C000864,Fictional Society Business 0864,Professional Services,Medium,34,Region 4,SYN-RM004,2019-01-01,4053288.010000,True
+SYN-C000865,Fictional End Business 0865,Hospitality,Medium,34,Region 1,SYN-RM005,2020-01-01,1025676.210000,True
+SYN-C000866,Fictional Though Business 0866,Wholesale,Small,7,Region 2,SYN-RM006,2018-01-01,687718.270000,True
+SYN-C000867,Fictional Public Business 0867,Wholesale,Medium,19,Region 3,SYN-RM007,2019-01-01,3282083.060000,True
+SYN-C000868,Fictional Factor Business 0868,Hospitality,Medium,12,Region 4,SYN-RM008,2019-01-01,4858105.510000,True
+SYN-C000869,Fictional Space Business 0869,Retail,Large,33,Region 1,SYN-RM009,2020-01-01,19168633.930000,True
+SYN-C000870,Fictional Star Business 0870,Manufacturing,Small,10,Region 2,SYN-RM010,2018-01-01,741546.040000,True
+SYN-C000871,Fictional Near Business 0871,Professional Services,Medium,22,Region 3,SYN-RM011,2018-01-01,3575948.050000,True
+SYN-C000872,Fictional Memory Business 0872,Retail,Medium,12,Region 4,SYN-RM012,2019-01-01,1657787.350000,True
+SYN-C000873,Fictional Produce Business 0873,Retail,Small,24,Region 1,SYN-RM013,2020-01-01,657101.060000,True
+SYN-C000874,Fictional Edge Business 0874,Wholesale,Medium,10,Region 2,SYN-RM014,2019-01-01,1817699.850000,True
+SYN-C000875,Fictional Face Business 0875,Construction,Small,12,Region 3,SYN-RM015,2020-01-01,680796.660000,True
+SYN-C000876,Fictional Less Business 0876,Hospitality,Small,18,Region 4,SYN-RM016,2018-01-01,724568.890000,True
+SYN-C000877,Fictional Bank Business 0877,Hospitality,Large,5,Region 1,SYN-RM017,2019-01-01,5056071.880000,True
+SYN-C000878,Fictional Sell Business 0878,Professional Services,Medium,33,Region 2,SYN-RM018,2018-01-01,2609694.460000,True
+SYN-C000879,Fictional Feeling Business 0879,Wholesale,Small,5,Region 3,SYN-RM019,2021-01-01,289593.990000,True
+SYN-C000880,Fictional Easy Business 0880,Wholesale,Small,13,Region 4,SYN-RM020,2020-01-01,818013.130000,True
+SYN-C000881,Fictional Expert Business 0881,Hospitality,Medium,17,Region 1,SYN-RM001,2019-01-01,1104970.930000,True
+SYN-C000882,Fictional Government Business 0882,Construction,Medium,31,Region 2,SYN-RM002,2019-01-01,2019358.110000,True
+SYN-C000883,Fictional Front Business 0883,Professional Services,Medium,25,Region 3,SYN-RM003,2021-01-01,2379359.830000,True
+SYN-C000884,Fictional Walk Business 0884,Retail,Medium,5,Region 4,SYN-RM004,2020-01-01,1030197.930000,True
+SYN-C000885,Fictional Now Business 0885,Manufacturing,Small,24,Region 1,SYN-RM005,2022-01-01,250356.080000,True
+SYN-C000886,Fictional Be Business 0886,Wholesale,Small,15,Region 2,SYN-RM006,2023-01-01,281115.860000,True
+SYN-C000887,Fictional Certainly Business 0887,Professional Services,Small,6,Region 3,SYN-RM007,2023-01-01,941279.680000,True
+SYN-C000888,Fictional City Business 0888,Professional Services,Medium,17,Region 4,SYN-RM008,2019-01-01,2474462.430000,True
+SYN-C000889,Fictional During Business 0889,Wholesale,Small,4,Region 1,SYN-RM009,2021-01-01,568531.700000,True
+SYN-C000890,Fictional Identify Business 0890,Construction,Medium,8,Region 2,SYN-RM010,2019-01-01,1731254.390000,True
+SYN-C000891,Fictional Rule Business 0891,Hospitality,Medium,10,Region 3,SYN-RM011,2019-01-01,1488632.510000,True
+SYN-C000892,Fictional Claim Business 0892,Professional Services,Small,25,Region 4,SYN-RM012,2021-01-01,678255.340000,True
+SYN-C000893,Fictional Seat Business 0893,Wholesale,Medium,28,Region 1,SYN-RM013,2019-01-01,1601193.780000,True
+SYN-C000894,Fictional Difficult Business 0894,Manufacturing,Medium,12,Region 2,SYN-RM014,2021-01-01,4101295.240000,True
+SYN-C000895,Fictional Attack Business 0895,Retail,Medium,32,Region 3,SYN-RM015,2020-01-01,2226124.840000,True
+SYN-C000896,Fictional Join Business 0896,Retail,Small,35,Region 4,SYN-RM016,2022-01-01,972387.420000,True
+SYN-C000897,Fictional Involve Business 0897,Manufacturing,Large,35,Region 1,SYN-RM017,2018-01-01,5010779.960000,True
+SYN-C000898,Fictional Give Business 0898,Retail,Small,3,Region 2,SYN-RM018,2018-01-01,644934.910000,True
+SYN-C000899,Fictional Occur Business 0899,Hospitality,Medium,27,Region 3,SYN-RM019,2018-01-01,1338192.140000,True
+SYN-C000900,Fictional Man Business 0900,Hospitality,Small,22,Region 4,SYN-RM020,2021-01-01,358153.200000,True
+SYN-C000901,Fictional Just Business 0901,Wholesale,Medium,22,Region 1,SYN-RM001,2021-01-01,1593899.050000,True
+SYN-C000902,Fictional Assume Business 0902,Wholesale,Small,3,Region 2,SYN-RM002,2018-01-01,516755.220000,True
+SYN-C000903,Fictional Design Business 0903,Retail,Medium,20,Region 3,SYN-RM003,2018-01-01,2546722.690000,True
+SYN-C000904,Fictional There Business 0904,Wholesale,Medium,18,Region 4,SYN-RM004,2020-01-01,1911550.130000,True
+SYN-C000905,Fictional Kitchen Business 0905,Retail,Small,8,Region 1,SYN-RM005,2022-01-01,432543.390000,True
+SYN-C000906,Fictional Improve Business 0906,Hospitality,Small,25,Region 2,SYN-RM006,2018-01-01,610903.450000,True
+SYN-C000907,Fictional West Business 0907,Professional Services,Medium,32,Region 3,SYN-RM007,2018-01-01,1348248.910000,True
+SYN-C000908,Fictional Speech Business 0908,Construction,Medium,8,Region 4,SYN-RM008,2023-01-01,1099400.340000,True
+SYN-C000909,Fictional Pattern Business 0909,Retail,Small,26,Region 1,SYN-RM009,2019-01-01,390823.430000,True
+SYN-C000910,Fictional Young Business 0910,Construction,Medium,25,Region 2,SYN-RM010,2018-01-01,2344732.930000,True
+SYN-C000911,Fictional Safe Business 0911,Retail,Small,26,Region 3,SYN-RM011,2023-01-01,724044.270000,True
+SYN-C000912,Fictional Again Business 0912,Retail,Medium,35,Region 4,SYN-RM012,2023-01-01,4445435.890000,True
+SYN-C000913,Fictional Tough Business 0913,Construction,Medium,27,Region 1,SYN-RM013,2019-01-01,2789540.450000,True
+SYN-C000914,Fictional Up Business 0914,Professional Services,Medium,5,Region 2,SYN-RM014,2019-01-01,3921939.500000,True
+SYN-C000915,Fictional Southern Business 0915,Hospitality,Medium,19,Region 3,SYN-RM015,2019-01-01,1856770.030000,True
+SYN-C000916,Fictional Parent Business 0916,Manufacturing,Medium,23,Region 4,SYN-RM016,2023-01-01,2479030.620000,True
+SYN-C000917,Fictional Husband Business 0917,Hospitality,Medium,4,Region 1,SYN-RM017,2018-01-01,1674951.680000,True
+SYN-C000918,Fictional Me Business 0918,Construction,Medium,7,Region 2,SYN-RM018,2019-01-01,2312246.670000,True
+SYN-C000919,Fictional According Business 0919,Construction,Medium,7,Region 3,SYN-RM019,2022-01-01,1198329.190000,True
+SYN-C000920,Fictional Yes Business 0920,Professional Services,Small,30,Region 4,SYN-RM020,2018-01-01,952926.270000,True
+SYN-C000921,Fictional He Business 0921,Wholesale,Medium,4,Region 1,SYN-RM001,2022-01-01,2675671.660000,True
+SYN-C000922,Fictional Fire Business 0922,Retail,Medium,15,Region 2,SYN-RM002,2023-01-01,1657007.180000,True
+SYN-C000923,Fictional Some Business 0923,Construction,Large,9,Region 3,SYN-RM003,2018-01-01,8814244.820000,True
+SYN-C000924,Fictional In Business 0924,Manufacturing,Small,30,Region 4,SYN-RM004,2021-01-01,223030.530000,True
+SYN-C000925,Fictional Tonight Business 0925,Retail,Medium,14,Region 1,SYN-RM005,2019-01-01,4196214.910000,True
+SYN-C000926,Fictional Wait Business 0926,Retail,Medium,5,Region 2,SYN-RM006,2022-01-01,2270773.730000,True
+SYN-C000927,Fictional Thing Business 0927,Construction,Large,31,Region 3,SYN-RM007,2021-01-01,12782133.410000,True
+SYN-C000928,Fictional Kind Business 0928,Manufacturing,Small,13,Region 4,SYN-RM008,2019-01-01,327314.790000,True
+SYN-C000929,Fictional Nothing Business 0929,Hospitality,Medium,4,Region 1,SYN-RM009,2023-01-01,4604597.260000,True
+SYN-C000930,Fictional Small Business 0930,Construction,Medium,2,Region 2,SYN-RM010,2018-01-01,4442363.990000,True
+SYN-C000931,Fictional Simple Business 0931,Wholesale,Small,31,Region 3,SYN-RM011,2018-01-01,720354.230000,True
+SYN-C000932,Fictional Office Business 0932,Retail,Medium,32,Region 4,SYN-RM012,2018-01-01,1098204.250000,True
+SYN-C000933,Fictional Such Business 0933,Manufacturing,Small,31,Region 1,SYN-RM013,2020-01-01,150000.000000,True
+SYN-C000934,Fictional Player Business 0934,Manufacturing,Medium,11,Region 2,SYN-RM014,2022-01-01,2086273.790000,True
+SYN-C000935,Fictional Water Business 0935,Wholesale,Medium,18,Region 3,SYN-RM015,2023-01-01,1487648.170000,True
+SYN-C000936,Fictional Discussion Business 0936,Wholesale,Medium,21,Region 4,SYN-RM016,2022-01-01,1882948.380000,True
+SYN-C000937,Fictional Method Business 0937,Wholesale,Large,3,Region 1,SYN-RM017,2018-01-01,5391560.400000,True
+SYN-C000938,Fictional Discuss Business 0938,Wholesale,Medium,33,Region 2,SYN-RM018,2022-01-01,2353265.920000,True
+SYN-C000939,Fictional Explain Business 0939,Hospitality,Medium,10,Region 3,SYN-RM019,2018-01-01,2158088.000000,True
+SYN-C000940,Fictional Least Business 0940,Professional Services,Medium,11,Region 4,SYN-RM020,2020-01-01,1136112.500000,True
+SYN-C000941,Fictional Mention Business 0941,Professional Services,Medium,13,Region 1,SYN-RM001,2022-01-01,4339373.830000,True
+SYN-C000942,Fictional Air Business 0942,Construction,Small,3,Region 2,SYN-RM002,2018-01-01,152631.340000,True
+SYN-C000943,Fictional Improve Business 0943,Hospitality,Large,31,Region 3,SYN-RM003,2021-01-01,5935372.630000,True
+SYN-C000944,Fictional Great Business 0944,Retail,Medium,34,Region 4,SYN-RM004,2023-01-01,3796880.320000,True
+SYN-C000945,Fictional Relate Business 0945,Retail,Medium,10,Region 1,SYN-RM005,2021-01-01,1881757.360000,True
+SYN-C000946,Fictional Respond Business 0946,Retail,Small,12,Region 2,SYN-RM006,2022-01-01,920835.060000,True
+SYN-C000947,Fictional Success Business 0947,Construction,Medium,35,Region 3,SYN-RM007,2020-01-01,3245562.610000,True
+SYN-C000948,Fictional Interview Business 0948,Hospitality,Medium,30,Region 4,SYN-RM008,2021-01-01,3274710.570000,True
+SYN-C000949,Fictional Shake Business 0949,Professional Services,Small,27,Region 1,SYN-RM009,2021-01-01,208558.900000,True
+SYN-C000950,Fictional Company Business 0950,Retail,Medium,8,Region 2,SYN-RM010,2023-01-01,3176050.250000,True
+SYN-C000951,Fictional Though Business 0951,Wholesale,Small,10,Region 3,SYN-RM011,2021-01-01,761327.380000,True
+SYN-C000952,Fictional Manage Business 0952,Retail,Medium,22,Region 4,SYN-RM012,2021-01-01,2993590.810000,True
+SYN-C000953,Fictional Wide Business 0953,Construction,Medium,28,Region 1,SYN-RM013,2020-01-01,1417794.720000,True
+SYN-C000954,Fictional Care Business 0954,Wholesale,Small,8,Region 2,SYN-RM014,2019-01-01,476429.310000,True
+SYN-C000955,Fictional Prevent Business 0955,Manufacturing,Medium,20,Region 3,SYN-RM015,2023-01-01,1998266.760000,True
+SYN-C000956,Fictional None Business 0956,Construction,Large,20,Region 4,SYN-RM016,2022-01-01,6535562.820000,True
+SYN-C000957,Fictional Agreement Business 0957,Wholesale,Medium,35,Region 1,SYN-RM017,2019-01-01,1051100.450000,True
+SYN-C000958,Fictional What Business 0958,Manufacturing,Large,13,Region 2,SYN-RM018,2018-01-01,16277745.790000,True
+SYN-C000959,Fictional Indeed Business 0959,Professional Services,Medium,10,Region 3,SYN-RM019,2018-01-01,1016221.040000,True
+SYN-C000960,Fictional Person Business 0960,Retail,Medium,27,Region 4,SYN-RM020,2018-01-01,3107914.530000,True
+SYN-C000961,Fictional Organization Business 0961,Retail,Medium,8,Region 1,SYN-RM001,2023-01-01,1317123.760000,True
+SYN-C000962,Fictional Recognize Business 0962,Retail,Medium,33,Region 2,SYN-RM002,2022-01-01,1048674.520000,True
+SYN-C000963,Fictional Agreement Business 0963,Retail,Small,4,Region 3,SYN-RM003,2023-01-01,756100.240000,True
+SYN-C000964,Fictional Because Business 0964,Manufacturing,Medium,4,Region 4,SYN-RM004,2022-01-01,1352723.510000,True
+SYN-C000965,Fictional Question Business 0965,Wholesale,Small,26,Region 1,SYN-RM005,2020-01-01,342414.870000,True
+SYN-C000966,Fictional Later Business 0966,Construction,Medium,8,Region 2,SYN-RM006,2023-01-01,2813207.970000,True
+SYN-C000967,Fictional Central Business 0967,Retail,Medium,21,Region 3,SYN-RM007,2020-01-01,2772132.880000,True
+SYN-C000968,Fictional Trial Business 0968,Professional Services,Medium,14,Region 4,SYN-RM008,2023-01-01,1407399.950000,True
+SYN-C000969,Fictional Main Business 0969,Professional Services,Small,7,Region 1,SYN-RM009,2022-01-01,303490.780000,True
+SYN-C000970,Fictional Court Business 0970,Manufacturing,Small,30,Region 2,SYN-RM010,2021-01-01,632167.310000,True
+SYN-C000971,Fictional Apply Business 0971,Retail,Medium,3,Region 3,SYN-RM011,2023-01-01,1234118.270000,True
+SYN-C000972,Fictional Ever Business 0972,Manufacturing,Medium,13,Region 4,SYN-RM012,2021-01-01,2569618.790000,True
+SYN-C000973,Fictional Hundred Business 0973,Manufacturing,Medium,26,Region 1,SYN-RM013,2019-01-01,1918615.720000,True
+SYN-C000974,Fictional Generation Business 0974,Hospitality,Small,28,Region 2,SYN-RM014,2018-01-01,645226.770000,True
+SYN-C000975,Fictional Development Business 0975,Retail,Medium,11,Region 3,SYN-RM015,2023-01-01,1048783.870000,True
+SYN-C000976,Fictional Look Business 0976,Wholesale,Small,13,Region 4,SYN-RM016,2018-01-01,882991.520000,True
+SYN-C000977,Fictional General Business 0977,Professional Services,Small,22,Region 1,SYN-RM017,2018-01-01,291373.230000,True
+SYN-C000978,Fictional Green Business 0978,Hospitality,Medium,14,Region 2,SYN-RM018,2021-01-01,4216311.120000,True
+SYN-C000979,Fictional Sort Business 0979,Wholesale,Small,22,Region 3,SYN-RM019,2022-01-01,805741.680000,True
+SYN-C000980,Fictional Until Business 0980,Professional Services,Small,3,Region 4,SYN-RM020,2022-01-01,161015.380000,True
+SYN-C000981,Fictional Hundred Business 0981,Professional Services,Large,19,Region 1,SYN-RM001,2019-01-01,6403761.040000,True
+SYN-C000982,Fictional Fall Business 0982,Retail,Medium,14,Region 2,SYN-RM002,2019-01-01,1616687.650000,True
+SYN-C000983,Fictional Soldier Business 0983,Retail,Small,14,Region 3,SYN-RM003,2020-01-01,849152.400000,True
+SYN-C000984,Fictional Theory Business 0984,Manufacturing,Large,34,Region 4,SYN-RM004,2018-01-01,8293249.760000,True
+SYN-C000985,Fictional Know Business 0985,Construction,Small,13,Region 1,SYN-RM005,2023-01-01,558271.260000,True
+SYN-C000986,Fictional Entire Business 0986,Professional Services,Medium,29,Region 2,SYN-RM006,2022-01-01,1166492.460000,True
+SYN-C000987,Fictional They Business 0987,Manufacturing,Small,5,Region 3,SYN-RM007,2023-01-01,298886.800000,True
+SYN-C000988,Fictional Beat Business 0988,Wholesale,Medium,8,Region 4,SYN-RM008,2018-01-01,1909961.510000,True
+SYN-C000989,Fictional Many Business 0989,Wholesale,Medium,33,Region 1,SYN-RM009,2021-01-01,1570033.480000,True
+SYN-C000990,Fictional After Business 0990,Manufacturing,Small,23,Region 2,SYN-RM010,2019-01-01,583594.790000,True
+SYN-C000991,Fictional So Business 0991,Hospitality,Large,29,Region 3,SYN-RM011,2019-01-01,17425496.080000,True
+SYN-C000992,Fictional Notice Business 0992,Retail,Small,28,Region 4,SYN-RM012,2023-01-01,950574.950000,True
+SYN-C000993,Fictional Area Business 0993,Professional Services,Small,30,Region 1,SYN-RM013,2023-01-01,883518.230000,True
+SYN-C000994,Fictional Hard Business 0994,Retail,Medium,24,Region 2,SYN-RM014,2023-01-01,2456073.010000,True
+SYN-C000995,Fictional Door Business 0995,Retail,Medium,20,Region 3,SYN-RM015,2023-01-01,1599358.440000,True
+SYN-C000996,Fictional Rate Business 0996,Professional Services,Small,31,Region 4,SYN-RM016,2018-01-01,827059.000000,True
+SYN-C000997,Fictional Authority Business 0997,Construction,Small,5,Region 1,SYN-RM017,2019-01-01,443990.120000,True
+SYN-C000998,Fictional Statement Business 0998,Wholesale,Medium,2,Region 2,SYN-RM018,2019-01-01,1268213.510000,True
+SYN-C000999,Fictional Reach Business 0999,Wholesale,Small,20,Region 3,SYN-RM019,2020-01-01,704059.680000,True
+SYN-C001000,Fictional Amount Business 1000,Retail,Large,29,Region 4,SYN-RM020,2020-01-01,5159649.020000,True

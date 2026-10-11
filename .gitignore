@@ -28,8 +28,15 @@ coverage.xml
 .agents/skills/
 .claude/skills/
 
-# Generated synthetic data and reports; retain .gitkeep files
+# Include only the seven default synthetic CSVs; ignore alternatives and reports
 data/**/*.csv
+!data/synthetic/customers.csv
+!data/synthetic/relationship_managers.csv
+!data/synthetic/deposits.csv
+!data/synthetic/loans.csv
+!data/synthetic/credit_cards.csv
+!data/synthetic/profitability.csv
+!data/synthetic/products.csv
 reports/**/*.json
 reports/**/*.png
 

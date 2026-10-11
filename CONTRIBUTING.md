@@ -1,6 +1,6 @@
 # Contributing
 
-Start with the setup and generation instructions in README.md. Use Python 3.13
+Start with the setup and optional regeneration instructions in README.md. Use Python 3.13
 and the committed uv.lock; do not change the lockfile merely to run the project.
 
 ## Development workflow
@@ -19,7 +19,9 @@ calculations, rules, joins, or user interactions. Use temporary synthetic fixtur
 Do not add real customer data, real account/tax identifiers, internal banking
 datasets, public economic datasets, or confidential rules. Document changes to
 fictional simulation assumptions and data schemas. Do not commit virtual
-environments, generated outputs, agent-skill links, or credentials.
+environments, alternative datasets, generated reports, agent-skill links, or credentials.
+The seven default synthetic CSVs are intentionally committed. Regenerate them
+only when a documented data or generator change requires it.
 
 Maintain fixed January 2024–December 2025 dates and seed 42 for the default demo.
 App code must not use generation-only scenario assignments or observations after

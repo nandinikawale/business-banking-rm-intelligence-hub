@@ -4,10 +4,12 @@ This directory holds **entirely fictional** banking datasets. No real customer
 records, customer identifiers, public economic observations, external datasets,
 or confidential business rules are used.
 
-A GitHub clone contains this README and directory placeholders, **not the generated
-CSVs**. Generate the files before launching Streamlit.
+A GitHub clone includes the seven default synthetic CSVs under synthetic/.
+**Generation is optional:** install dependencies and launch the app using the
+[root README](../README.md). Follow the steps below to regenerate the data.
+Alternative datasets and generated reports remain ignored.
 
-## Generate after cloning
+## Optional regeneration after cloning
 
 Open a terminal in the project root, the directory containing pyproject.toml,
 not inside data/.

@@ -10,12 +10,13 @@ commit or push is performed by this checklist.
 - Include the MIT LICENSE file already provided in the project root.
 - Include pyproject.toml, uv.lock, .python-version, source, tests, docs,
   .streamlit/config.toml, .github/workflows/ci.yml, and directory placeholders.
-- Exclude .venv, caches, dist/, generated CSVs/reports, local editor settings,
+- Include the seven default synthetic CSVs under data/synthetic/.
+- Exclude .venv, caches, dist/, alternative datasets/reports, local editor settings,
   credentials and machine-specific agent-skill links.
 - Run the documented tests and code checks.
-- Generated data is reproducible locally; do not upload banking datasets.
+- Default data is fictional and reproducible; never upload real banking datasets.
 
-The source snapshot can be refreshed from the project root:
+The project snapshot with the default dataset can be refreshed from the project root:
 
 ```sh
 python scripts/package_for_github.py
@@ -62,8 +63,8 @@ review the actual remote result after upload.
 ## Clone verification
 
 Follow the root README exactly: install uv, synchronize locked app dependencies,
-generate the seven default CSVs, validate them, and launch Streamlit. Generated
-data is absent from the source archive and Git repository by design.
+launch Streamlit using the seven included default CSVs. Validation and regeneration
+are optional; see data/README.md. Alternative datasets and reports are excluded.
 
 Uploading source to GitHub does not host the running Streamlit app. Deployment
 is a separate step.

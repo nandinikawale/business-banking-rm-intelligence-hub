@@ -1,4 +1,4 @@
-"""Create a source-only GitHub snapshot using a conservative file allowlist."""
+"""Create a GitHub snapshot including default synthetic data using a conservative file allowlist."""
 
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
@@ -22,7 +22,18 @@ ROOT_FILES = (
     "pyproject.toml",
     "uv.lock",
 )
-EXTRA_FILES = ("data/README.md", "data/synthetic/.gitkeep", "reports/.gitkeep")
+EXTRA_FILES = (
+    "data/README.md",
+    "data/synthetic/.gitkeep",
+    "reports/.gitkeep",
+    "data/synthetic/customers.csv",
+    "data/synthetic/relationship_managers.csv",
+    "data/synthetic/deposits.csv",
+    "data/synthetic/loans.csv",
+    "data/synthetic/credit_cards.csv",
+    "data/synthetic/profitability.csv",
+    "data/synthetic/products.csv",
+)
 EXTENSIONS = {".py", ".md", ".toml", ".yml", ".yaml", ".png", ".jpg", ".jpeg", ".svg"}
 EXCLUDED_PARTS = {
     ".git",
@@ -86,4 +97,4 @@ def build_archive(root=PROJECT_ROOT):
 
 if __name__ == "__main__":
     archive, count = build_archive()
-    print(f"Packaged {count} source files: {archive}")
+    print(f"Packaged {count} project files: {archive}")

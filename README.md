@@ -88,8 +88,6 @@ git clone https://github.com/nandinikawale/business-banking-rm-intelligence-hub.
 cd business-banking-rm-intelligence-hub
 python -m pip install uv==0.12.24
 python -m uv sync --locked --group app
-python -m uv run --locked --group app banking-data generate
-python -m uv run --locked --group app banking-data validate
 python -m uv run --locked --group app streamlit run streamlit_app/app.py
 ```
 
@@ -99,10 +97,12 @@ if python is unavailable or selects another version.
 Open the local URL printed by Streamlit, normally http://localhost:8501.
 Press **Ctrl+C** in the terminal to stop the server.
 
-**Generated CSVs are intentionally not committed.** A fresh clone will have no
-customer CSVs until you run generation. The generator creates exactly seven files
-under data/synthetic/ and writes reports under reports/. It runs independently
-of Streamlit; opening the app never generates or downloads data.
+**Ready-to-run synthetic data is included.** A fresh clone contains the seven
+default CSVs under data/synthetic/. Generation is optional: install dependencies
+and launch the app directly. Opening the app never generates or downloads data.
+
+For optional validation or regeneration, see [data instructions](data/README.md).
+Regeneration overwrites the included CSVs and writes local reports.
 
 For Code -> Download ZIP, extract the archive, open a terminal in the extracted
 folder containing pyproject.toml, and follow the commands starting at pip install.
@@ -115,8 +115,6 @@ uv through your main Python 3.13 installation. With the Windows Python launcher:
 ```powershell
 py -3.13 -m pip install uv==0.12.24
 py -3.13 -m uv sync --locked --group app
-py -3.13 -m uv run --locked --group app banking-data generate
-py -3.13 -m uv run --locked --group app banking-data validate
 py -3.13 -m uv run --locked --group app streamlit run streamlit_app/app.py
 ```
 
@@ -180,7 +178,7 @@ business-banking-rm-intelligence-hub/
 │   └── views/                  # Portfolio, Customer 360, Opportunities
 ├── data/
 │   ├── README.md               # Generation, regeneration, and schemas
-│   └── synthetic/              # Seven generated CSVs, excluded from Git
+│   └── synthetic/              # Seven default synthetic CSVs, included in Git
 ├── reports/                    # Generated manifest and validation report
 ├── docs/                       # Architecture, assumptions, publication guide
 ├── scripts/                    # Read-only analytics and source packaging
@@ -231,14 +229,15 @@ python -m uv run --locked --group app python scripts/inspect_analytics.py
 See [the publication checklist](docs/publishing_to_github.md) for local Git
 setup and upload commands for the nandinikawale GitHub account.
 
-Create a source-only snapshot when needed:
+Create a project snapshot with the default synthetic dataset when needed:
 
 ```sh
 python scripts/package_for_github.py
 ```
 
 The ZIP is written under dist/. It excludes .venv, Git metadata, caches,
-generated CSVs/reports, and agent-skill links. Extract it before using its source;
+alternative datasets, generated reports, and agent-skill links. The seven default
+synthetic CSVs are included. Extract it before using its source;
 committing a ZIP alone does not create a browsable source repository.
 
 **License:** [MIT](LICENSE). Copyright (c) 2026 nandinikawale.
