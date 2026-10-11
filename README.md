@@ -8,9 +8,9 @@ and rule parameter is fictional. No real customer data, internal banking dataset
 public economic datasets, or confidential business rules are included or fetched.
 No API keys or external accounts are required to run the app.
 
-![Portfolio Overview with top navigation](docs/images/portfolio-overview.png)
+![Portfolio Overview with midnight navy navigation](docs/images/portfolio-overview-midnight.png)
 
-*Example: the default synthetic portfolio for December 2025.*
+*Actual app screenshot: the default synthetic portfolio for December 2025.*
 
 ## Business context and value
 
@@ -65,6 +65,11 @@ Review separate signal and unique-customer counts, RM/product distributions,
 and an explanation for every worklist row. Retention appears before cross-sell
 by default; this is a review order, not a predictive risk score. Percentage and
 USD thresholds are labeled separately.
+
+The sidebar and top navigation use midnight navy (#0B132B), with light text
+and teal highlights. The dashboard retains a light background for readable charts.
+Sidebar colors are configured in .streamlit/config.toml; scoped navigation CSS
+is kept in streamlit_app/components.py and should be reviewed after Streamlit upgrades.
 
 Page links appear across the top on desktop. On phone-width screens, use the
 top-left chevron to open the responsive page menu. Filters remain in the sidebar.

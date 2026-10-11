@@ -38,7 +38,25 @@ def apply_style():
         [data-testid="stMetric"] {min-height: 92px;}
         [data-testid="stMetricValue"] {font-size: 1.8rem; font-weight: 650;}
         [data-testid="stMetricLabel"] {color: #52647a;}
-        [data-testid="stSidebar"] {border-right: 1px solid #e5eaf1;}
+        /* Sidebar colors use supported theme settings; top navigation needs CSS.
+           Keep test-id selectors isolated here and verify after Streamlit upgrades. */
+        [data-testid="stSidebar"] {border-right: 1px solid #35415a;}
+        [data-testid="stHeader"] {background-color: #0b132b;}
+        [data-testid="stHeader"] button,
+        [data-testid="stHeader"] [data-testid="stIconMaterial"],
+        [data-testid="stTopNavLink"],
+        [data-testid="stTopNavLink"] p {color: #f5f7fa !important;}
+        [data-testid="stTopNavLink"] {border-radius: 6px; padding: 0.45rem 0.75rem;}
+        [data-testid="stTopNavLink"]:hover {background-color: #18243d;}
+        [data-testid="stTopNavLink"][aria-current="page"] {
+            background-color: #18243d; box-shadow: inset 0 -3px #37c5c8;
+        }
+        [data-testid="stTopNavLink"]:focus-visible {
+            outline: 2px solid #37c5c8; outline-offset: 2px;
+        }
+        [data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] {
+            background-color: #ffffff;
+        }
         </style>
     """,
         unsafe_allow_html=True,

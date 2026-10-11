@@ -6,5 +6,12 @@ secondaryBackgroundColor = "#ffffff"
 textColor = "#152740"
 font = "sans-serif"
 
+[theme.sidebar]
+backgroundColor = "#0B132B"
+secondaryBackgroundColor = "#18243D"
+textColor = "#F5F7FA"
+primaryColor = "#37C5C8"
+borderColor = "#35415A"
+
 [browser]
 gatherUsageStats = false
