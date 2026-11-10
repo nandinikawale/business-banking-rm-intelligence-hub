@@ -44,6 +44,7 @@ wheels = [
 name = "business-banking-rm-intelligence-hub"
 version = "0.1.0"
 source = { editable = "." }
+default-groups = ["app", "dev"]
 dependencies = [
     { name = "faker" },
     { name = "numpy" },

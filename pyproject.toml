@@ -19,5 +19,8 @@ packages = ["src/banking_data", "src/rm_hub", "streamlit_app"]
 app = ["duckdb>=1.5,<2", "streamlit>=1.65,<2", "plotly>=6,<7"]
 dev = ["pytest>=8,<9", "ruff>=0.11,<1"]
 
+[tool.uv]
+default-groups = ["app", "dev"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]

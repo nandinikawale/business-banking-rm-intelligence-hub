@@ -134,6 +134,24 @@ Regeneration overwrites the included CSVs and writes local reports.
 For Code -> Download ZIP, extract the archive, open a terminal in the extracted
 folder containing pyproject.toml, and follow the commands starting at pip install.
 
+## Deploy on Streamlit Community Cloud
+
+The repository is configured for deployment from its locked uv environment. In
+[Streamlit Community Cloud](https://share.streamlit.io/), create an app with these
+settings:
+
+| Setting | Value |
+| --- | --- |
+| Repository | `nandinikawale/business-banking-rm-intelligence-hub` |
+| Branch | `main` |
+| App file | `streamlit_app/app.py` |
+| Python version | `3.13` |
+
+No application secrets or external database credentials are required. The app reads
+only the fictional CSV files committed under `data/synthetic/`. Community Cloud
+detects `uv.lock` and installs the default `app` dependency group defined in
+`pyproject.toml`.
+
 ### Windows / VS Code interpreter troubleshooting
 
 If the terminal selects .venv Python and reports **No module named uv**, invoke
