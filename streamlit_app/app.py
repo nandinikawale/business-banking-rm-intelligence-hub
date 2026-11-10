@@ -8,7 +8,7 @@ st.set_page_config(
 )
 apply_style()
 with st.sidebar:
-    st.caption("BUSINESS BANKING")
+    st.markdown('<p class="sidebar-brand">BUSINESS BANKING</p>', unsafe_allow_html=True)
     st.title("RM Intelligence Hub")
     st.caption("Relationship intelligence")
     st.divider()

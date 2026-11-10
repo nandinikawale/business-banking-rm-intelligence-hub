@@ -8,7 +8,7 @@ and rule parameter is fictional. No real customer data, internal banking dataset
 public economic datasets, or confidential business rules are included or fetched.
 No API keys or external accounts are required to run the app.
 
-![Portfolio Overview with midnight navy navigation](docs/images/portfolio-overview-midnight.png)
+![Portfolio Overview with customer deposit movement analysis](docs/images/portfolio-overview-full.png)
 
 *Actual app screenshot: the default synthetic portfolio for December 2025.*
 
@@ -43,6 +43,8 @@ filters. The page provides:
 - Monthly bank revenue, allocated expenses, and relationship profitability.
 - Month-over-month changes and sustained deposit-decline indicator counts.
 - Balance and bank economics trends through the selected month.
+- Deposit increases, decreases, and net movement, with the largest customer
+  contributors and a complete customer movement table.
 - Deposit concentration by industry and RM, product penetration, and
   expandable concentration and customer-level tables.
 
@@ -58,6 +60,11 @@ operating sales, expenses, and profit are displayed separately from the bank's
 relationship profitability. Historical views exclude later observations and
 product changes.
 
+A bank profitability waterfall shows deposit, lending, card and service revenue,
+allocated costs, and net profit. Prior-month totals and detailed component changes
+explain movements, including the opposite impact of rising costs on profit.
+Deposit interest expense is already netted in deposit revenue and is not deducted again.
+
 ### RM Opportunities
 
 Filter by reporting month, RM, industry, region, signal type, and product.
@@ -66,8 +73,23 @@ and an explanation for every worklist row. Retention appears before cross-sell
 by default; this is a review order, not a predictive risk score. Percentage and
 USD thresholds are labeled separately.
 
+Use **Download opportunity worklist** to export the app-filtered signals as CSV,
+including reporting month, RM, industry, region, explanations and supporting measures.
+The export preserves multiple signals per customer and the default review order;
+interactive sorting inside the table does not change that order. UTF-8 with a BOM
+supports Excel, and formula-like text is escaped for safer spreadsheet opening.
+The dedicated button is unavailable when no signals match.
+
+Screenshots: [deposit movements](docs/images/portfolio-overview-insights.png),
+[customer profitability](docs/images/customer-360-profitability.png), and
+[opportunity export](docs/images/rm-opportunities-export.png).
+
+See [analytics feature definitions](docs/analytics_features.md) for calculations,
+comparison periods, reconciliation, export behavior and edge cases.
+
 The sidebar and top navigation use midnight navy (#0B132B), with light text
-and teal highlights. The dashboard retains a light background for readable charts.
+and teal highlights. The **BUSINESS BANKING** sidebar label uses 18 px semibold
+light text. The dashboard retains a light background for readable charts.
 Sidebar colors are configured in .streamlit/config.toml; scoped navigation CSS
 is kept in streamlit_app/components.py and should be reviewed after Streamlit upgrades.
 
@@ -86,7 +108,7 @@ top-left chevron to open the responsive page menu. Filters remain in the sidebar
 Run commands from the **project root**, the directory containing pyproject.toml.
 No manual virtual-environment activation is needed: uv creates and uses .venv.
 
-Once the repository is published, clone it using:
+Clone the repository using:
 
 ```sh
 git clone https://github.com/nandinikawale/business-banking-rm-intelligence-hub.git
@@ -180,6 +202,8 @@ business-banking-rm-intelligence-hub/
 │   ├── app.py                  # Three-page top navigation
 │   ├── components.py           # Formatting and reusable Plotly charts
 │   ├── data.py                 # Cached service adapters
+│   ├── insights.py             # Deposit movement and profitability presentation
+│   ├── exports.py              # Shared worklist formatting and CSV download
 │   └── views/                  # Portfolio, Customer 360, Opportunities
 ├── data/
 │   ├── README.md               # Generation, regeneration, and schemas
@@ -229,10 +253,16 @@ python -m uv run --locked --group app python scripts/inspect_analytics.py
 | Regenerated data is not shown | Restart Streamlit. Results are cached using file metadata. |
 | Streamlit suggests installing agent skills | Optional development guidance; not required to run this project. |
 
-## Preparing a GitHub upload later
+## Updating the GitHub repository
 
-See [the publication checklist](docs/publishing_to_github.md) for local Git
-setup and upload commands for the nandinikawale GitHub account.
+See [the publication checklist](docs/publishing_to_github.md) for committing and
+pushing updates to the existing repository. Do not repeat git init or recreate origin.
+Recent additions are recorded in the [changelog](CHANGELOG.md).
+
+The [October 2026 project report](docs/business-banking-rm-project-report.pdf)
+describes the earlier build and AI-assisted workflow. Current behavior is documented
+in this README and the analytics feature definitions; the historical report predates
+the November enhancements.
 
 Create a project snapshot with the default synthetic dataset when needed:
 

@@ -18,6 +18,7 @@ from streamlit_app.data import (
     load_opportunities,
     load_options,
 )
+from streamlit_app.exports import opportunity_worklist, worklist_csv
 from streamlit_app.views.portfolio_overview import data_error
 
 
@@ -158,46 +159,22 @@ def render():
     st.caption(
         "Default review order: retention first, then cross-sell. This is a display convention, not a risk score."
     )
-    display = selected.copy()
-    display["review_order"] = display.priority.map(
-        {1: "1 · Retention", 2: "2 · Cross-sell"}
+    display = opportunity_worklist(selected)
+    st.download_button(
+        "Download opportunity worklist",
+        data=worklist_csv(display),
+        file_name=f"rm_opportunities_{month:%Y-%m}.csv",
+        mime="text/csv",
+        key="download_opportunity_worklist",
+        type="primary",
+        on_click="ignore",
+        icon=":material/download:",
     )
-    display["product"] = display["product"].map(OPPORTUNITY_PRODUCTS)
-    display["rule_threshold"] = [
-        f"At least {threshold:.0f}% decline"
-        if kind == "Retention"
-        else f"At least USD {threshold:,.0f}"
-        for kind, threshold in zip(display.signal_type, display.threshold)
-    ]
-    display["month"] = display.month.dt.strftime("%B %Y")
-    display = display[
-        [
-            "review_order",
-            "customer_id",
-            "business_name",
-            "rm_name",
-            "signal_type",
-            "product",
-            "activity_value",
-            "rule_threshold",
-            "deposit_change_percent",
-            "reason",
-            "month",
-        ]
-    ].rename(
-        columns={
-            "review_order": "Review order",
-            "customer_id": "Customer ID",
-            "business_name": "Fictional business",
-            "rm_name": "Relationship manager",
-            "signal_type": "Signal type",
-            "product": "Potential product",
-            "activity_value": "Activity (USD)",
-            "rule_threshold": "Rule threshold",
-            "deposit_change_percent": "Deposit change (%)",
-            "reason": "Supporting observation",
-            "month": "Reporting month",
-        }
+    st.caption(
+        f"Download contains {summary['signal_count']:,} filtered signals for "
+        f"{summary['customer_count']:,} customers in {month:%B %Y}, including "
+        "industry, region, explanations and supporting measures. "
+        "Interactive table sorting does not change the download's default review order."
     )
     st.dataframe(
         display,
@@ -216,6 +193,8 @@ def render():
             "Activity (USD)",
             "Deposit change (%)",
             "Reporting month",
+            "Industry",
+            "Region",
         ],
         column_config={
             "Activity (USD)": st.column_config.NumberColumn(format="dollar"),

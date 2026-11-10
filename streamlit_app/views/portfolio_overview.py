@@ -9,6 +9,7 @@ from streamlit_app.components import (
     product_chart,
 )
 from streamlit_app.data import data_directory, fingerprint, load_options, load_portfolio
+from streamlit_app.insights import render_deposit_movement
 
 
 def data_error(message):
@@ -118,6 +119,9 @@ def render():
             width="stretch",
             key="economics_trends",
         )
+
+    render_deposit_movement(bundle["deposit_movement"])
+    st.divider()
 
     left, right = st.columns(2)
     with left:

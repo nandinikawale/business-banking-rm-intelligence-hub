@@ -20,7 +20,7 @@ def test_initial_customer_page(customer_app, ui_dataset):
         == ui_dataset[1]["customers"].customer_id.iloc[0]
     )
     assert len(app.metric) == 11
-    assert len(app.get("plotly_chart")) == 3
+    assert len(app.get("plotly_chart")) == 4
     assert app.dataframe[-1].value.shape[0] == 24
 
 
@@ -50,6 +50,8 @@ def test_historical_month_has_no_future_data(customer_app):
     assert table.Month.iloc[-1] == "2024-06"
     for element in app.get("plotly_chart"):
         figure = json.loads(element.proto.spec)
+        if figure["data"][0]["type"] == "waterfall":
+            continue
         assert date.fromisoformat(figure["layout"]["xaxis"]["range"][-1]) <= month
         for trace in figure["data"]:
             assert len(trace["x"]) == 6
@@ -69,7 +71,9 @@ def test_nonholders_display_zero_and_not_held(
     app.selectbox(key="customer_id").set_value(customer_id).run()
     assert not app.exception
     assert app.metric[index].value == "$0.00"
-    holdings = app.dataframe[0].value.set_index("Product")
+    holdings = next(
+        table.value for table in app.dataframe if "Status" in table.value.columns
+    ).set_index("Product")
     assert holdings.loc[product, "Status"] == "Not held"
 
 

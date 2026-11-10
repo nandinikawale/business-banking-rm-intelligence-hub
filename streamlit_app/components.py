@@ -34,6 +34,10 @@ def apply_style():
         """
         <style>
         .block-container {padding-top: 4.5rem; padding-bottom: 3rem; max-width: 1500px;}
+        [data-testid="stSidebar"] p.sidebar-brand {
+            font-size: 18px; font-weight: 600; color: #f5f7fa;
+            letter-spacing: 0.04em; margin: 0 0 0.75rem;
+        }
         h1 {letter-spacing: -0.035em;}
         [data-testid="stMetric"] {min-height: 92px;}
         [data-testid="stMetricValue"] {font-size: 1.8rem; font-weight: 650;}

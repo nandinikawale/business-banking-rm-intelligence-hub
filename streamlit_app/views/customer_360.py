@@ -6,6 +6,7 @@ from rm_hub.data.connection import DataValidationError
 from rm_hub.services.portfolio import HOLDINGS
 from streamlit_app.components import LABELS, currency, line_chart, metric_card
 from streamlit_app.data import data_directory, fingerprint, load_customer, load_options
+from streamlit_app.insights import render_profitability_breakdown
 from streamlit_app.views.portfolio_overview import data_error
 
 
@@ -152,6 +153,9 @@ def render():
     st.caption(
         "Bank profitability is bank revenue minus allocated expenses. It is separate from the business's operating profit."
     )
+
+    render_profitability_breakdown(bundle["profitability_breakdown"])
+    st.divider()
 
     left, right = st.columns(2)
     with left:

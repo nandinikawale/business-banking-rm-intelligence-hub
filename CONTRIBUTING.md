@@ -29,3 +29,9 @@ the selected reporting month.
 
 For a proposed change, describe the problem, resulting behavior, and validation.
 The project uses the [MIT License](LICENSE). Contribution acceptance is managed by the repository owner.
+
+
+For visible behavior changes, update CHANGELOG.md and the relevant README or feature
+guide. Keep screenshots aligned with the shared sidebar styling. Current analytics
+rules and export semantics are in docs/analytics_features.md. The historical PDF
+records the earlier build, not the current feature specification.

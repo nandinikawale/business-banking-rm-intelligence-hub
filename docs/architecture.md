@@ -160,3 +160,23 @@ GitHub CI's existing full pytest command includes these tests.
 
 
 On narrow screens, native Streamlit navigation falls back to its collapsible menu. Expand the sidebar/menu with the top-left chevron to choose a page and access filters.
+
+
+## Deposit movement profitability breakdown and export
+
+The new relationship_insights service compares adjacent calendar months and exposes
+customer-level deposit movements and a reconciled bank profitability breakdown.
+Cached portfolio and customer bundles include these results. The insights presentation
+module renders them below the existing trend charts without changing theme or navigation.
+The opportunity loader adds industry and region metadata using a validated many-to-one
+customer join. A shared formatted worklist drives both the table and the dedicated CSV
+serializer, avoiding duplicated display/export rules. See [feature definitions](analytics_features.md).
+
+
+## Shared sidebar branding
+
+The shared entry point renders BUSINESS BANKING as a dedicated sidebar-brand
+paragraph. Its scoped rule in components.apply_style sets 18 px semibold light
+text. The midnight navy sidebar and top navigation colors are unchanged. Because
+all pages run through the entry point, the branding is consistent across pages.
+Desktop and narrow-screen browser checks confirm the computed font size.

@@ -42,6 +42,8 @@ def test_initial_page_counts_and_order(opportunities_app, ui_dataset):
     assert app.selectbox(key="opp_month").value == date(2025, 12, 1)
     assert metric_counts(app) == counts_from_csv(ui_dataset[1], "2025-12-01")
     assert len(app.get("plotly_chart")) == 2
+    assert len(app.get("download_button")) == 1
+    assert app.get("download_button")[0].proto.label == "Download opportunity worklist"
     table = app.dataframe[0].value
     assert len(table) == metric_counts(app)[0]
     assert table["Customer ID"].nunique() == metric_counts(app)[1]
@@ -93,6 +95,7 @@ def test_empty_selection_is_clear_and_zero(opportunities_app):
     assert metric_counts(app) == (0, 0, 0, 0)
     assert any("No signals match" in message.value for message in app.info)
     assert not app.dataframe
+    assert not app.get("download_button")
     assert not app.get("plotly_chart")
 
 

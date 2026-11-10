@@ -11,11 +11,11 @@ def test_initial_page(app):
     assert not app.error
     assert any(title.value == "Portfolio Overview" for title in app.title)
     assert app.selectbox(key="reporting_month").value == date(2025, 12, 1)
-    assert len(app.metric) == 8
+    assert len(app.metric) == 11
     assert app.metric[0].label == "Customers"
     assert app.metric[0].value == "30"
-    assert len(app.get("plotly_chart")) == 5
-    assert len(app.dataframe) == 2
+    assert len(app.get("plotly_chart")) == 6
+    assert len(app.dataframe) == 3
     assert any("Entirely fictional" in item.value for item in app.caption)
 
 
@@ -24,7 +24,11 @@ def test_rm_filter_updates_population(app, ui_dataset):
     assert not app.exception
     expected = int((ui_dataset[1]["customers"].rm_id == "SYN-RM001").sum())
     assert app.metric[0].value == str(expected)
-    customer_table = app.dataframe[1].value
+    customer_table = next(
+        table.value
+        for table in app.dataframe
+        if "Loans (USD)" in table.value.columns and "Customer ID" in table.value.columns
+    )
     assert customer_table["Relationship manager"].eq("Fictional RM 001").all()
 
 
@@ -53,6 +57,8 @@ def test_first_month_has_no_misleading_delta(app):
     app.selectbox(key="reporting_month").set_value(date(2024, 1, 1)).run()
     assert not app.exception
     assert app.metric[1].delta == ""
+    assert any("No previous-month data" in message.value for message in app.info)
+    assert len(app.metric) == 8
 
 
 def test_missing_data_has_actionable_error(monkeypatch, tmp_path):

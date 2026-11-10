@@ -43,3 +43,6 @@ reports/**/*.png
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Unfinished local narrative draft; the reviewed historical PDF may be shared
+/docs/business-banking-rm-project-report.docx

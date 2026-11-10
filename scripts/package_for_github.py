@@ -16,6 +16,7 @@ DIRECTORIES = (
 ROOT_FILES = (
     "README.md",
     "CONTRIBUTING.md",
+    "CHANGELOG.md",
     ".gitignore",
     ".gitattributes",
     ".python-version",
@@ -57,7 +58,11 @@ def source_files(root):
         if path.is_symlink() or not path.resolve().is_relative_to(root):
             raise ValueError(f"External link cannot be packaged: {name}")
         files.add(path)
-    for name in ("LICENSE", "LICENSE.md"):
+    for name in (
+        "LICENSE",
+        "LICENSE.md",
+        "docs/business-banking-rm-project-report.pdf",
+    ):
         path = root / name
         if (
             path.is_file()

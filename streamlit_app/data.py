@@ -9,6 +9,10 @@ from rm_hub.data.schemas import SCHEMAS
 from rm_hub.services.customer import customer_360
 from rm_hub.services.opportunities import opportunities
 from rm_hub.services.portfolio import concentration, portfolio_summary, portfolio_trends
+from rm_hub.services.relationship_insights import (
+    deposit_movement,
+    profitability_breakdown,
+)
 from rm_hub.settings import Settings
 
 
@@ -60,6 +64,7 @@ def load_portfolio(directory, file_fingerprint, month, rm_id, industry, region):
             "industry": concentration(repository, month, filters, group_by="industry"),
             "rm": concentration(repository, month, filters, group_by="rm_id"),
             "snapshot": repository.snapshot(month, filters),
+            "deposit_movement": deposit_movement(repository, month, filters),
         }
 
 
@@ -69,6 +74,9 @@ def load_customer(directory, file_fingerprint, customer_id, month):
         repository = Repository(connection)
         bundle = customer_360(repository, customer_id, month)
         bundle["signals"] = opportunities(repository, month, customer_id=customer_id)
+        bundle["profitability_breakdown"] = profitability_breakdown(
+            bundle["history"], month
+        )
         return bundle
 
 
@@ -76,4 +84,11 @@ def load_customer(directory, file_fingerprint, customer_id, month):
 def load_opportunities(directory, file_fingerprint, month, rm_id, industry, region):
     filters = Filters(rm_id=rm_id, industry=industry, region=region)
     with analytics_connection(directory) as connection:
-        return opportunities(Repository(connection), month, filters)
+        repository = Repository(connection)
+        signals = opportunities(repository, month, filters)
+        return signals.merge(
+            repository.customers(filters)[["customer_id", "industry", "region"]],
+            on="customer_id",
+            how="left",
+            validate="many_to_one",
+        )
