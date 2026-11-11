@@ -1,7 +1,12 @@
 # Business Banking RM Intelligence Hub
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://business-banking-rm-intelligence-app.streamlit.app/)
+[![Project checks](https://github.com/nandinikawale/business-banking-rm-intelligence-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/nandinikawale/business-banking-rm-intelligence-hub/actions/workflows/ci.yml)
+
 A local Streamlit dashboard for exploring fictional business banking relationships.
 It combines a standalone data generator, DuckDB analytics, Pandas, and Plotly.
+
+**Live application:** [business-banking-rm-intelligence-app.streamlit.app](https://business-banking-rm-intelligence-app.streamlit.app/)
 
 **Synthetic data only:** every business, RM, identifier, financial observation,
 and rule parameter is fictional. No real customer data, internal banking datasets,
@@ -135,6 +140,9 @@ For Code -> Download ZIP, extract the archive, open a terminal in the extracted
 folder containing pyproject.toml, and follow the commands starting at pip install.
 
 ## Deploy on Streamlit Community Cloud
+
+The public deployment is available at
+[business-banking-rm-intelligence-app.streamlit.app](https://business-banking-rm-intelligence-app.streamlit.app/).
 
 The repository is configured for deployment from its locked uv environment. In
 [Streamlit Community Cloud](https://share.streamlit.io/), create an app with these
